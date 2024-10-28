@@ -115,7 +115,7 @@ GameObject:
   - component: {fileID: 18}
   - component: {fileID: 964}
   - component: {fileID: 968}
-  - component: {fileID: 970}
+  - component: {fileID: 971}
   m_Layer: 2
   m_Name: Bot
   m_TagString: Untagged
@@ -154,7 +154,7 @@ GameObject:
   - component: {fileID: 32}
   - component: {fileID: 967}
   - component: {fileID: 969}
-  - component: {fileID: 971}
+  - component: {fileID: 970}
   m_Layer: 2
   m_Name: Bot
   m_TagString: Untagged
@@ -9811,23 +9811,23 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6}
+  m_GameObject: {fileID: 19}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f7b5e7676eab3f4a8b17167e653d4ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   FootstepAudioClips:
-  - {fileID: 8300000, guid: bdf3c122d86dae8478988449e35cc47d, type: 3}
-  - {fileID: 8300000, guid: 29133721a7b9e8343969cde0b8e6044c, type: 3}
-  - {fileID: 8300000, guid: df4f3a1a52259b640b7d4ddcd6856502, type: 3}
-  - {fileID: 8300000, guid: 52137e9f73f49274dbac70fdfb332c53, type: 3}
-  - {fileID: 8300000, guid: 3471e307dad9e6f42b6f2b588420a6db, type: 3}
-  - {fileID: 8300000, guid: 8bcec4195b5d9a04dae693a37923ad3a, type: 3}
-  - {fileID: 8300000, guid: 1b98ad5bfb3427841b593744c1153089, type: 3}
-  - {fileID: 8300000, guid: 0e68935eb2f1a2340b6dfd3fe1b1609f, type: 3}
-  - {fileID: 8300000, guid: ddc9cfeb22bae3e4daf3a441cea70c6e, type: 3}
-  - {fileID: 8300000, guid: 5c63506032671c34abfe70d20c1cd5f0, type: 3}
+  - {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
+  - {fileID: 8300000, guid: 85016e0f2b01da248b9663dd49a161b0, type: 3}
+  - {fileID: 8300000, guid: 186de84b3207156479abe98f4958fed0, type: 3}
+  - {fileID: 8300000, guid: 1a91fcd19acf1e54bba0945d9f390849, type: 3}
+  - {fileID: 8300000, guid: 14e8a8d2158bec840b56c54f5266e692, type: 3}
+  - {fileID: 8300000, guid: 29841e7d5bbfb5b419c9ad16ca8bc4c1, type: 3}
+  - {fileID: 8300000, guid: dd1af302b8902684d9381de1f2d3a5af, type: 3}
+  - {fileID: 8300000, guid: 67c8b33e424ccdc4486edf538ab91c5a, type: 3}
+  - {fileID: 8300000, guid: 274649b0e221539409070ebf6c18918b, type: 3}
+  - {fileID: 8300000, guid: a3194b8bbc96ef84fab1f98f4b7dae3e, type: 3}
   FootstepAudioVolume: 0.5
 --- !u!114 &971
 MonoBehaviour:
@@ -9835,13 +9835,23 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19}
+  m_GameObject: {fileID: 6}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f7b5e7676eab3f4a8b17167e653d4ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FootstepAudioClips: []
+  FootstepAudioClips:
+  - {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
+  - {fileID: 8300000, guid: 85016e0f2b01da248b9663dd49a161b0, type: 3}
+  - {fileID: 8300000, guid: 186de84b3207156479abe98f4958fed0, type: 3}
+  - {fileID: 8300000, guid: 1a91fcd19acf1e54bba0945d9f390849, type: 3}
+  - {fileID: 8300000, guid: 14e8a8d2158bec840b56c54f5266e692, type: 3}
+  - {fileID: 8300000, guid: 29841e7d5bbfb5b419c9ad16ca8bc4c1, type: 3}
+  - {fileID: 8300000, guid: dd1af302b8902684d9381de1f2d3a5af, type: 3}
+  - {fileID: 8300000, guid: 67c8b33e424ccdc4486edf538ab91c5a, type: 3}
+  - {fileID: 8300000, guid: 274649b0e221539409070ebf6c18918b, type: 3}
+  - {fileID: 8300000, guid: a3194b8bbc96ef84fab1f98f4b7dae3e, type: 3}
   FootstepAudioVolume: 0.5
 --- !u!114 &985
 MonoBehaviour:
@@ -9949,15 +9959,15 @@ MonoBehaviour:
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
     cacheStartup: 0
-  showNavGraphs: 1
+  showNavGraphs: 0
   showUnwalkableNodes: 1
   debugMode: 4
   debugFloor: 0
   debugRoof: 1
   manualDebugFloorRoof: 0
-  showSearchTree: 0
+  showSearchTree: 1
   unwalkableNodeDebugSize: 0.2
-  logPathResults: 0
+  logPathResults: 3
   maxNearestNodeDistance: 50
   scanOnStartup: 1
   fullGetNearestSearch: 0
