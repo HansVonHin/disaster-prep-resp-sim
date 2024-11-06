@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Assets/RayFire/Plugins/Ios/libRF_CNative_ios.a filter=lfs diff=lfs merge=lfs -text
 Assets/Rayfire/Plugins/Ios/libRF_CNative_ios.a filter=lfs diff=lfs merge=lfs -text
