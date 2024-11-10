@@ -1,5 +1,5 @@
 ﻿using UnityEditor;
-using UnityEditor.Experimental.SceneManagement;
+
 using UnityEngine;
 
 namespace GleyUrbanAssets
@@ -17,7 +17,7 @@ namespace GleyUrbanAssets
 
         public static bool PrefabChanged()
         {
-            if (PrefabStageUtility.GetCurrentPrefabStage() != null)
+            if (UnityEditor.SceneManagement.PrefabStageUtility.GetCurrentPrefabStage() != null)
             {
 #if UNITY_2020_OR_NEWER
                 if (prefabStage != PrefabStageUtility.GetCurrentPrefabStage().assetPath)
@@ -26,9 +26,9 @@ namespace GleyUrbanAssets
                     return true;
                 }
 #else
-                if (prefabStage != PrefabStageUtility.GetCurrentPrefabStage().prefabAssetPath)
+                if (prefabStage != UnityEditor.SceneManagement.PrefabStageUtility.GetCurrentPrefabStage().prefabAssetPath)
                 {
-                    prefabStage = PrefabStageUtility.GetCurrentPrefabStage().prefabAssetPath;
+                    prefabStage = UnityEditor.SceneManagement.PrefabStageUtility.GetCurrentPrefabStage().prefabAssetPath;
                     return true;
                 }
 #endif
@@ -47,7 +47,7 @@ namespace GleyUrbanAssets
 
         public static GameObject GetScenePrefabRoot()
         {
-            PrefabStage prefabStage = PrefabStageUtility.GetCurrentPrefabStage();
+            UnityEditor.SceneManagement.PrefabStage prefabStage = UnityEditor.SceneManagement.PrefabStageUtility.GetCurrentPrefabStage();
             if (prefabStage != null)
             {
                 return prefabStage.prefabContentsRoot;
