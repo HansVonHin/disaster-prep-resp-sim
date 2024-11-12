@@ -4959,7 +4959,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6714091710502533549}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: RearRayPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8046,7 +8046,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6727705812701944992}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: FrontRayPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
