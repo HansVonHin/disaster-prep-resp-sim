@@ -13,23 +13,23 @@ MonoBehaviour:
   m_Name: GlobalValidationConfig
   m_EditorClassIdentifier: 
   ValidateScenesOnSceneLoad:
-    serializedValue: 0
-    changedFromDefault: 0
+    serializedValue: 1
+    changedFromDefault: 1
   ValidateMainProfileOnLoad:
     serializedValue: 0
     changedFromDefault: 0
   QueueAssetsOnLoad:
-    serializedValue: 0
-    changedFromDefault: 0
+    serializedValue: 1
+    changedFromDefault: 1
   QueueScenesOnLoad:
     serializedValue: 0
     changedFromDefault: 0
   PopulateQueueOnAssetDeleted:
-    serializedValue: 0
-    changedFromDefault: 0
+    serializedValue: 1
+    changedFromDefault: 1
   PopulateQueueOnGameObjectDeleted:
-    serializedValue: 0
-    changedFromDefault: 0
+    serializedValue: 1
+    changedFromDefault: 1
   RunMainValidationSessionOnLoad:
     serializedValue: 0
     changedFromDefault: 0
@@ -84,4 +84,4 @@ MonoBehaviour:
   KeepMainValidationSessionAliveInBackground:
     serializedValue: 0
     changedFromDefault: 0
-  HasShownValidationConfig: 0
+  HasShownValidationConfig: 1
