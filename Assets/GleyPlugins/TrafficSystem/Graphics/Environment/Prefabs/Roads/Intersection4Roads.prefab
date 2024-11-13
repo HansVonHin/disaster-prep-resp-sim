@@ -313,6 +313,10 @@ PrefabInstance:
       value: TrafficLightPost
       objectReference: {fileID: 0}
     - target: {fileID: 7051494736400639301, guid: 2a4c32f393c599e40bab5aee79cb6299, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7051494736400639301, guid: 2a4c32f393c599e40bab5aee79cb6299, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
