@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - TrafficLight
+  - OreNode
+  - CinemachineTarget
   layers:
   - Default
   - TransparentFX
@@ -13,11 +16,11 @@ TagManager:
   - UI
   - 
   - 
-  - Socket
-  - 
-  - 
-  - 
-  - 
+  - Road
+  - Traffic
+  - Buildings
+  - Obstacles
+  - Player
   - 
   - 
   - 
