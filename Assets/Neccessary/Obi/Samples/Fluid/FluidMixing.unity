@@ -1291,7 +1291,7 @@ GameObject:
   - component: {fileID: 335578779}
   - component: {fileID: 335578784}
   - component: {fileID: 335578781}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Solver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
