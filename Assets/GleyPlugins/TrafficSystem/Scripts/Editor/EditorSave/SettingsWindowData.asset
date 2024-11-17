@@ -33,7 +33,7 @@ MonoBehaviour:
     waypointDistance: 4
   roadDefaults:
     nrOfLanes: 2
-    laneWidth: 4
+    laneWidth: 5
     waypointDistance: 4
   roadColors:
     textColor: {r: 1, g: 1, b: 1, a: 1}
@@ -45,7 +45,7 @@ MonoBehaviour:
     controlPointColor: {r: 1, g: 0, b: 0, a: 1}
     roadConnectorColor: {r: 0, g: 1, b: 1, a: 1}
     selectedRoadConnectorColor: {r: 0, g: 1, b: 0, a: 1}
-    waypointColor: {r: 0, g: 0, b: 1, a: 1}
+    waypointColor: {r: 1, g: 0.99764353, b: 0, a: 1}
     selectedWaypointColor: {r: 0, g: 1, b: 0, a: 1}
     disconnectedColor: {r: 1, g: 0, b: 0, a: 1}
     prevWaypointColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -78,11 +78,11 @@ MonoBehaviour:
   editRoadSave:
     viewRoadsSettings:
       viewLanes: 0
-      viewWaypoints: 0
+      viewWaypoints: 1
       viewLaneChanges: 0
-    moveTool: 1
-    maxSpeed: 50
-    globalCarList: 
+    moveTool: 2
+    maxSpeed: 40
+    globalCarList: 00000000
   speedEditedWaypointsSettings:
     showConnections: 0
     showOtherLanes: 0
