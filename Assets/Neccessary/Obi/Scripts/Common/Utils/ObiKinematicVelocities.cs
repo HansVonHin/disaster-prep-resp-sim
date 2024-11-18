@@ -18,7 +18,7 @@ public class ObiKinematicVelocities : MonoBehaviour {
 		if (unityRigidbody.isKinematic)
 		{
 			// differentiate positions to obtain linear velocity:
-			unityRigidbody.velocity = (transform.position - prevPosition) / Time.deltaTime;
+			unityRigidbody.linearVelocity = (transform.position - prevPosition) / Time.deltaTime;
 
 			// differentiate rotations to obtain angular velocity:
 			Quaternion delta = transform.rotation * Quaternion.Inverse(prevRotation);

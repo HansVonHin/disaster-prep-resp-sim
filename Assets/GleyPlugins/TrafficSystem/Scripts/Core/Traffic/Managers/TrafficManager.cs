@@ -285,7 +285,7 @@ namespace GleyTrafficSystem
                 vehicleRigidbody[i] = vehicle.rb;
                 vehicleSteeringStep[i] = vehicle.GetSteeringStep();
                 vehicleWheelDistance[i] = vehicle.wheelDistance;
-                vehicleDrag[i] = vehicle.rb.drag;
+                vehicleDrag[i] = vehicle.rb.linearDamping;
                 vehicleSpringForce[i] = vehicle.GetSpringForce();
                 raycastLengths[i] = vehicle.GetRaycastLength();
                 wCircumferences[i] = vehicle.GetWheelCircumference();
@@ -613,7 +613,7 @@ namespace GleyTrafficSystem
             drivingAI.VehicleActivated(vehicleIndex);
             vehicleMaxSpeed[vehicleIndex] = drivingAI.GetMaxSpeedMS(vehicleIndex);
             //set initial velocity
-            vehicleRigidbody[vehicleIndex].velocity = vehiclePositioningSystem.GetForwardVector(vehicleIndex) * vehicleMaxSpeed[vehicleIndex] / 2;
+            vehicleRigidbody[vehicleIndex].linearVelocity = vehiclePositioningSystem.GetForwardVector(vehicleIndex) * vehicleMaxSpeed[vehicleIndex] / 2;
         }
 
 
@@ -667,7 +667,7 @@ namespace GleyTrafficSystem
 
             for (int i = 0; i < nrOfVehicles; i++)
             {
-                vehicleVelocity[i] = vehicleRigidbody[i].velocity;
+                vehicleVelocity[i] = vehicleRigidbody[i].linearVelocity;
                 vehicleDownDirection[i] = -vehiclePositioningSystem.GetUpVector(i);
                 forward = vehiclePositioningSystem.GetForwardVector(i);
                 forward.y = 0;

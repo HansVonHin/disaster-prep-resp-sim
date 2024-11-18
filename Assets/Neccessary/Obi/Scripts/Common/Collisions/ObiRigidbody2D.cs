@@ -21,7 +21,7 @@ namespace Obi{
 
 		public override void UpdateIfNeeded(){
 
-			velocity = new Vector3(unityRigidbody.velocity.x,unityRigidbody.velocity.y,0);
+			velocity = new Vector3(unityRigidbody.linearVelocity.x,unityRigidbody.linearVelocity.y,0);
 			angularVelocity = new Vector3(0,0,unityRigidbody.angularVelocity * Mathf.Deg2Rad);
 
 			adaptor.Set(unityRigidbody,kinematicForParticles);
@@ -41,7 +41,7 @@ namespace Obi{
 
                 Oni.GetRigidbodyVelocity(OniRigidbody,ref oniVelocities);
 				Vector3 deltaVel = oniVelocities.linearVelocity - velocity;	
-				unityRigidbody.velocity += new Vector2(deltaVel.x,deltaVel.y);
+				unityRigidbody.linearVelocity += new Vector2(deltaVel.x,deltaVel.y);
 				unityRigidbody.angularVelocity += (oniVelocities.angularVelocity[2] - angularVelocity[2]) * Mathf.Rad2Deg;
 
 			}

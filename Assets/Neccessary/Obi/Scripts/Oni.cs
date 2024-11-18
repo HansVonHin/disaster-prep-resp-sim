@@ -232,7 +232,7 @@ public static class Oni {
 			bool kinematic = !Application.isPlaying || source.isKinematic || kinematicForParticles;
 
 			rotation = source.rotation;
-			linearVelocity = kinematicForParticles ? Vector3.zero : source.velocity;
+			linearVelocity = kinematicForParticles ? Vector3.zero : source.linearVelocity;
 			angularVelocity = kinematicForParticles ? Vector3.zero : source.angularVelocity;
 
 			// center of mass in unity is affected by local rotation and position, but not scale. We need it expressed in world space:
@@ -254,7 +254,7 @@ public static class Oni {
 			bool kinematic = !Application.isPlaying || source.isKinematic || kinematicForParticles;
 
 			rotation = Quaternion.AngleAxis(source.rotation,Vector3.forward);
-			linearVelocity = source.velocity;
+			linearVelocity = source.linearVelocity;
 
 			// For some weird reason, in 2D angular velocity is measured in *degrees* per second, 
 			// instead of radians. Seriously Unity, WTF??

@@ -65,7 +65,7 @@ namespace GleyTrafficSystem
             float motor = maxMotorTorque * inputScript.GetVerticalInput();
             float steering = maxSteeringAngle * inputScript.GetHorizontalInput();
 
-            float localVelocity = transform.InverseTransformDirection(rb.velocity).z+0.1f;
+            float localVelocity = transform.InverseTransformDirection(rb.linearVelocity).z+0.1f;
             reverse = false;
             brake = false;
             if (localVelocity < 0)

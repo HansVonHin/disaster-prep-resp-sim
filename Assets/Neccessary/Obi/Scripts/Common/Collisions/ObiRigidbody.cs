@@ -21,7 +21,7 @@ namespace Obi{
 
 		public override void UpdateIfNeeded(){
 
-			velocity = unityRigidbody.velocity;
+			velocity = unityRigidbody.linearVelocity;
 			angularVelocity = unityRigidbody.angularVelocity;
 
 			adaptor.Set(unityRigidbody,kinematicForParticles);
@@ -40,7 +40,7 @@ namespace Obi{
             {
 
                 Oni.GetRigidbodyVelocity(OniRigidbody,ref oniVelocities);
-                unityRigidbody.velocity += oniVelocities.linearVelocity - velocity;
+                unityRigidbody.linearVelocity += oniVelocities.linearVelocity - velocity;
                 unityRigidbody.angularVelocity += oniVelocities.angularVelocity - angularVelocity;
 			}
 		}

@@ -143,7 +143,7 @@ public class Demo_BuildingDragging : MonoBehaviour
             Vector3 mousePositionOffset =
                 Camera.ScreenToWorldPoint(new Vector3(inputAxis.x, inputAxis.y, m_SelectionDistance)) - m_OriginalScreenTargetPosition;
 
-            m_DraggingObject.velocity = (m_OriginalRigidbodyPosition + mousePositionOffset - m_DraggingObject.transform.position) * m_DraggingForce * Time.deltaTime;
+            m_DraggingObject.linearVelocity = (m_OriginalRigidbodyPosition + mousePositionOffset - m_DraggingObject.transform.position) * m_DraggingForce * Time.deltaTime;
 #else
             Vector3 mousePositionOffset =
                 Camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, m_SelectionDistance)) - m_OriginalScreenTargetPosition;
