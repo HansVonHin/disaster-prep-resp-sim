@@ -438,10 +438,10 @@ namespace GleyTrafficSystem
             else
             {
                 targetScript.rb = rb;
-                if (rb.drag == 0)
+                if (rb.linearDamping == 0)
                 {
-                    targetScript.rb.drag = 0.1f;
-                    targetScript.rb.angularDrag = 3;
+                    targetScript.rb.linearDamping = 0.1f;
+                    targetScript.rb.angularDamping = 3;
                 }
             }
         }

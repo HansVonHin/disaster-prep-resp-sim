@@ -1,4 +1,4 @@
-﻿#if USE_EASYROADS3D
+﻿
 using EasyRoads3Dv3;
 using System.Collections.Generic;
 using UnityEditor;
@@ -58,16 +58,17 @@ namespace GleyTrafficSystem
                     Transform connectorsHolder = new GameObject("Connectors").transform;
                     lanesHolder.transform.SetParent(road.transform);
                     connectorsHolder.SetParent(road.transform);
-
+#if EASYROADS
                     if (roads[i].GetLaneCount() > 0)
                     {
                         ExtractLaneWaypoints(roads[i].GetLeftLaneCount(), lanesHolder, roads[i], ERLaneDirection.Left, i);
                         ExtractLaneWaypoints(roads[i].GetRightLaneCount(), lanesHolder, roads[i], ERLaneDirection.Right, i);
                         ExtractConnectors(roads[i].GetLaneCount(), roads[i], connectorsHolder, i);
                     }
-                    else
+                    else 
+#endif
                     {
-                        Debug.LogError("No lane data found for " + roads[i].gameObject+". Make sure this road hat at least one lane inside Lane Info tab.", roads[i].gameObject);
+                        Debug.LogError("No lane data found for " + roads[i].gameObject + ". Make sure this road hat at least one lane inside Lane Info tab.", roads[i].gameObject);
                     }
                 }
             }
@@ -390,14 +391,17 @@ namespace GleyTrafficSystem
                 }
             }
         }
-
-
+    }
+}
+#if EASYROADS
         static void ExtractLaneWaypoints(int lanes, GameObject lanesHolder, ERRoad road, ERLaneDirection side, int r)
         {
             if (lanes > 0)
             {
                 for (int i = 0; i < lanes; i++)
+
                 {
+
                     Vector3[] positions = road.GetLanePoints(i, side);
                     if (positions != null)
                     {
@@ -416,8 +420,9 @@ namespace GleyTrafficSystem
                             waypointParents.Add(lane.transform);
                         }
                     }
-                    else
-                    {
+
+                        else
+                        {
                         Debug.LogWarning("No lane points found for " + road.gameObject.name + ", make sure Generate Lane Data is enabled from AI traffic", road.gameObject);
                     }
                 }
@@ -520,9 +525,9 @@ namespace GleyTrafficSystem
                         connectors.Add(waypoint);
                         connectionParents.Add(lane.transform);
                     }
+
                 }
             }
         }
     }
-}
 #endif

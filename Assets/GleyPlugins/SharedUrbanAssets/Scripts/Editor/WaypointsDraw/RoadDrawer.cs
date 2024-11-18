@@ -69,7 +69,7 @@ namespace GleyUrbanAssets
                         Handles.SphereHandleCap(0, path.GetPoint(i, road.positionOffset), Quaternion.identity, handleSize, EventType.Repaint);
                         break;
                     case MoveTools.Move2D:
-                        newPos = Handles.FreeMoveHandle(path.GetPoint(i, road.positionOffset), Quaternion.identity, handleSize, Vector2.zero, Handles.SphereHandleCap);
+                        var fmh_72_96_638675620499271896 = Quaternion.identity; newPos = Handles.FreeMoveHandle(path.GetPoint(i, road.positionOffset), handleSize, Vector2.zero, Handles.SphereHandleCap);
                         newPos.y = path.GetPoint(i, road.positionOffset).y;
                         break;
                 }
