@@ -2,6 +2,7 @@
   "dependencies": {
     "com.unity.addressables": "2.2.2",
     "com.unity.ai.navigation": "2.0.4",
+    "com.unity.burst": "1.8.18",
     "com.unity.cinemachine": "2.10.3",
     "com.unity.collab-proxy": "2.5.2",
     "com.unity.feature.characters-animation": "1.0.0",
@@ -21,6 +22,7 @@
     "com.unity.services.cloudsave": "3.2.0",
     "com.unity.terrain-tools": "5.1.2",
     "com.unity.transport": "2.3.0",
+    "com.unity.ugui": "2.0.0",
     "com.unity.visualeffectgraph": "17.0.3",
     "com.unity.visualscripting": "1.9.5",
     "com.unity.modules.accessibility": "1.0.0",
