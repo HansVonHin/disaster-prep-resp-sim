@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a1fbb6cb9aee9e545b530870a9e2d0f7
+guid: 446ca5ab243a8024ca99dab9776f5ed3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -126,3 +126,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 45394
+  packageName: Easy Build System - Modular Building System
+  packageVersion: 6.8.1
+  assetPath: Assets/Easy Build System/Packages/Demos/Bases/Textures/UI/Mobile/Circle_Faded.png
+  uploadId: 683841

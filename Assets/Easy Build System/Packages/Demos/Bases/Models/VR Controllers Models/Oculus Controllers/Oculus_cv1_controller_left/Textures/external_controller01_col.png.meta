@@ -138,3 +138,11 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 45394
+  packageName: Easy Build System - Modular Building System
+  packageVersion: 6.8.1
+  assetPath: Assets/Easy Build System/Packages/Demos/Bases/Models/VR Controllers
+    Models/Oculus Controllers/Oculus_cv1_controller_left/Textures/external_controller01_col.png
+  uploadId: 683841

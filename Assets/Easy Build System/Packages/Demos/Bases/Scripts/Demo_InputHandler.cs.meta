@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d1891de3a6e14564f82e8a5328ee7894
+guid: cdb545b780d00ef48b8905fbaea2dddd
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -9,3 +9,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 45394
+  packageName: Easy Build System - Modular Building System
+  packageVersion: 6.8.1
+  assetPath: Assets/Easy Build System/Packages/Demos/Bases/Scripts/Demo_InputHandler.cs
+  uploadId: 683841

@@ -126,3 +126,11 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 45394
+  packageName: Easy Build System - Modular Building System
+  packageVersion: 6.8.1
+  assetPath: Assets/Easy Build System/Packages/Demos/Third-Party/Controller Prompts/Keyboard
+    & Mouse/V_Key_Dark.png
+  uploadId: 683841

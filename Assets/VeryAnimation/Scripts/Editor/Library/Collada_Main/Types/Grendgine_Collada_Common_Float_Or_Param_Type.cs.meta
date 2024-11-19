@@ -10,3 +10,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96826
+  packageName: Very Animation
+  packageVersion: 1.2.27
+  assetPath: Assets/VeryAnimation/Scripts/Editor/Library/Collada_Main/Types/Grendgine_Collada_Common_Float_Or_Param_Type.cs
+  uploadId: 701537

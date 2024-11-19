@@ -1,7 +1,14 @@
 fileFormatVersion: 2
-guid: 626cd3231487a024194aa4cedd81481e
+guid: 4022f8ce85e225b4ab7b059b90f9c7a3
 DefaultImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 45394
+  packageName: Easy Build System - Modular Building System
+  packageVersion: 6.8.1
+  assetPath: Assets/Easy Build System/Packages/Demos/Standalone - Third Person.unity
+  uploadId: 683841

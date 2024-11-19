@@ -806,8 +806,8 @@
 				warpUv = half2((warpUv.x - _MinXUV) / (_MaxXUV - _MinXUV), (warpUv.y - _MinYUV) / (_MaxYUV - _MinYUV));
 				#endif
 				const float tau = 6.283185307179586;
-            	float xWarp = (_Time.y + randomSeed) * _WarpSpeed + warpUv.x * tau / _WarpScale;
-            	float yWarp = (_Time.y + randomSeed) * _WarpSpeed + warpUv.y * tau / _WarpScale;
+            	float xWarp = ((globalUnscaledTime * 20) + randomSeed) * _WarpSpeed + warpUv.x * tau / _WarpScale;
+            	float yWarp = ((globalUnscaledTime * 20) + randomSeed) * _WarpSpeed + warpUv.y * tau / _WarpScale;
             	float2 warp = float2(sin(xWarp), sin(yWarp)) * _WarpStrength;
             	i.uv += warp;
 				#endif
@@ -1042,8 +1042,8 @@
 
 				#if OVERLAY_ON
             	half2 overlayUvs = i.uv;
-            	overlayUvs.x += ((_Time.y + randomSeed) * _OverlayTextureScrollXSpeed) % 1;
-				overlayUvs.y += ((_Time.y + randomSeed) * _OverlayTextureScrollYSpeed) % 1;
+            	overlayUvs.x += (((globalUnscaledTime * 20) + randomSeed) * _OverlayTextureScrollXSpeed) % 1;
+				overlayUvs.y += (((globalUnscaledTime * 20) + randomSeed) * _OverlayTextureScrollYSpeed) % 1;
 				half4 overlayCol = tex2D(_OverlayTex, TRANSFORM_TEX(overlayUvs, _OverlayTex));
 				overlayCol.rgb *= _OverlayColor.rgb * _OverlayGlow;
 				#if !OVERLAYMULT_ON

@@ -10,3 +10,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96826
+  packageName: Very Animation
+  packageVersion: 1.2.27
+  assetPath: Assets/VeryAnimation/Scripts/Editor/Library/Collada_Main/Collada_FX/Profiles/COMMON/Grendgine_Collada_Profile_COMMON.cs
+  uploadId: 701537

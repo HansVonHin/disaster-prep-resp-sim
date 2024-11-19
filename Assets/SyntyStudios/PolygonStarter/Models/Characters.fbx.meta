@@ -139,9 +139,9 @@ ModelImporter:
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
-      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
-      improve retargeting quality.\n\t'Eyes' has translation animation that will be
-      discarded.\n\t'Eyes' has scale animation that will be discarded.\n\t'Clavicle_L'
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Eyes' has translation animation that will
+      be discarded.\n\t'Eyes' has scale animation that will be discarded.\n\t'Clavicle_L'
       has translation animation that will be discarded.\n\t'Clavicle_R' has translation
       animation that will be discarded.\n\t'UpperLeg_R' has translation animation
       that will be discarded.\n"
@@ -804,3 +804,10 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207048
+  packageName: POLYGON - Sampler Pack
+  packageVersion: 1.1.0
+  assetPath: Assets/SyntyStudios/PolygonStarter/Models/Characters.fbx
+  uploadId: 645704

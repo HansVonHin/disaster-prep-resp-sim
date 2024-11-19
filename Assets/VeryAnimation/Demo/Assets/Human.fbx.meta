@@ -891,3 +891,10 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96826
+  packageName: Very Animation
+  packageVersion: 1.2.27
+  assetPath: Assets/VeryAnimation/Demo/Assets/Human.fbx
+  uploadId: 701537

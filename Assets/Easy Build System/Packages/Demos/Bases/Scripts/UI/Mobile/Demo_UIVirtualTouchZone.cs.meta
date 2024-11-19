@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3a2869c691db43b4196c5fcbfdf86274
+guid: f7f061b8095722e409ae42c82a8b778e
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -9,3 +9,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 45394
+  packageName: Easy Build System - Modular Building System
+  packageVersion: 6.8.1
+  assetPath: Assets/Easy Build System/Packages/Demos/Bases/Scripts/UI/Mobile/Demo_UIVirtualTouchZone.cs
+  uploadId: 683841

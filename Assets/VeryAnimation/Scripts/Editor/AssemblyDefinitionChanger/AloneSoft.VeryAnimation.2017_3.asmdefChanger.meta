@@ -8,3 +8,10 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 8762c4b00f330c94ebf7795aacedb5f2, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96826
+  packageName: Very Animation
+  packageVersion: 1.2.27
+  assetPath: Assets/VeryAnimation/Scripts/Editor/AssemblyDefinitionChanger/AloneSoft.VeryAnimation.2017_3.asmdefChanger
+  uploadId: 701537

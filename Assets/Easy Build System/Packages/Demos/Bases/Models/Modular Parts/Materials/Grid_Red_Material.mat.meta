@@ -1,8 +1,15 @@
 fileFormatVersion: 2
-guid: 5fc07b1f6b46fef40b18c1d671fdb21f
+guid: 73e2eb10a66f27d49b2b28a20b9bedc6
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 45394
+  packageName: Easy Build System - Modular Building System
+  packageVersion: 6.8.1
+  assetPath: Assets/Easy Build System/Packages/Demos/Bases/Models/Modular Parts/Materials/Grid_Red_Material.mat
+  uploadId: 683841

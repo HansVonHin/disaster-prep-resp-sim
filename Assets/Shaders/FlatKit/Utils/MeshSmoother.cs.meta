@@ -9,3 +9,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143368
+  packageName: 'Flat Kit: Toon Shading and Water'
+  packageVersion: 4.7.8
+  assetPath: Assets/Shaders/FlatKit/Utils/MeshSmoother.cs
+  uploadId: 706660

@@ -5,3 +5,10 @@ AssemblyDefinitionImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96826
+  packageName: Very Animation
+  packageVersion: 1.2.27
+  assetPath: Assets/VeryAnimation/Scripts/Editor/AloneSoft.VeryAnimation.Editor.asmdef
+  uploadId: 701537

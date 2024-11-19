@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3780e7b414348954d88bf31ca5cc3a09
+guid: 3da5b5f681427c54a888314d7fc6249d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -126,3 +126,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 45394
+  packageName: Easy Build System - Modular Building System
+  packageVersion: 6.8.1
+  assetPath: Assets/Easy Build System/Packages/Demos/Bases/Textures/UI/Mobile/Icon_Sprint.png
+  uploadId: 683841
