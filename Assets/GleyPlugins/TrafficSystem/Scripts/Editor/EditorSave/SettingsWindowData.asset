@@ -78,10 +78,10 @@ MonoBehaviour:
   editRoadSave:
     viewRoadsSettings:
       viewLanes: 0
-      viewWaypoints: 1
+      viewWaypoints: 0
       viewLaneChanges: 0
     moveTool: 1
-    maxSpeed: 25
+    maxSpeed: 50
     globalCarList: 
   speedEditedWaypointsSettings:
     showConnections: 0
