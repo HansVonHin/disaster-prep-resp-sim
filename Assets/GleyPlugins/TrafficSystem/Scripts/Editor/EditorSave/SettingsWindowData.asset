@@ -22,7 +22,7 @@ MonoBehaviour:
       viewLaneChanges: 0
   viewRoadsSave:
     viewRoadsSettings:
-      viewLanes: 0
+      viewLanes: 1
       viewWaypoints: 0
       viewLaneChanges: 0
   connectRoadsSave:
@@ -32,20 +32,20 @@ MonoBehaviour:
       viewLaneChanges: 0
     waypointDistance: 4
   roadDefaults:
-    nrOfLanes: 2
+    nrOfLanes: 3
     laneWidth: 5
     waypointDistance: 5
   roadColors:
     textColor: {r: 1, g: 1, b: 1, a: 1}
     roadColor: {r: 0, g: 1, b: 0, a: 1}
-    laneColor: {r: 0, g: 0, b: 1, a: 1}
+    laneColor: {r: 0.91120577, g: 1, b: 0, a: 1}
     laneChangeColor: {r: 1, g: 0, b: 1, a: 1}
     connectorLaneColor: {r: 0, g: 1, b: 1, a: 1}
     anchorPointColor: {r: 1, g: 1, b: 1, a: 1}
     controlPointColor: {r: 1, g: 0, b: 0, a: 1}
     roadConnectorColor: {r: 0, g: 1, b: 1, a: 1}
     selectedRoadConnectorColor: {r: 0, g: 1, b: 0, a: 1}
-    waypointColor: {r: 0, g: 0, b: 1, a: 1}
+    waypointColor: {r: 1, g: 0.99729574, b: 0, a: 1}
     selectedWaypointColor: {r: 0, g: 1, b: 0, a: 1}
     disconnectedColor: {r: 1, g: 0, b: 0, a: 1}
     prevWaypointColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
@@ -56,7 +56,7 @@ MonoBehaviour:
     - {r: 1, g: 1, b: 1, a: 1}
     active: 01
   allWaypointsSettings:
-    showConnections: 0
+    showConnections: 1
     showOtherLanes: 0
     showSpeed: 0
     showCars: 0
