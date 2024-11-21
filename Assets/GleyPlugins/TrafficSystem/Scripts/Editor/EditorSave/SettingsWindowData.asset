@@ -45,7 +45,7 @@ MonoBehaviour:
     controlPointColor: {r: 1, g: 0, b: 0, a: 1}
     roadConnectorColor: {r: 0, g: 1, b: 1, a: 1}
     selectedRoadConnectorColor: {r: 0, g: 1, b: 0, a: 1}
-    waypointColor: {r: 0.9839549, g: 1, b: 0, a: 1}
+    waypointColor: {r: 0, g: 0, b: 1, a: 1}
     selectedWaypointColor: {r: 0, g: 1, b: 0, a: 1}
     disconnectedColor: {r: 1, g: 0, b: 0, a: 1}
     prevWaypointColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
