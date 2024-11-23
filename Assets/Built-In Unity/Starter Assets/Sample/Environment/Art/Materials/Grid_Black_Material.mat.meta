@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 073529d5156dba945ab3a472b278b22d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 45394
+  packageName: Easy Build System - Modular Building System
+  packageVersion: 6.8.1
+  assetPath: Assets/Starter Assets/Sample/Environment/Art/Materials/Grid_Black_Material.mat
+  uploadId: 683841

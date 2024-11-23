@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: de4a509ea867da4478e1daac9afc8faf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 45394
+  packageName: Easy Build System - Modular Building System
+  packageVersion: 6.8.1
+  assetPath: Assets/Easy Build System/Packages/Demos/Bases/Scripts/ThirdPerson/Demo_ThirdPersonController.cs
+  uploadId: 683841

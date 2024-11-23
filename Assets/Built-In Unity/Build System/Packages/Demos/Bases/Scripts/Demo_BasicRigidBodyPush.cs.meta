@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9b0db683a629db542a95b279d9ebf195
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 45394
+  packageName: Easy Build System - Modular Building System
+  packageVersion: 6.8.1
+  assetPath: Assets/Easy Build System/Packages/Demos/Bases/Scripts/Demo_BasicRigidBodyPush.cs
+  uploadId: 683841

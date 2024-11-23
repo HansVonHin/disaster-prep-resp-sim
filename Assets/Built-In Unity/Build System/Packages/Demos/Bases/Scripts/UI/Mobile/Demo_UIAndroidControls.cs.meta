@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4a300d010f57451488aa99000126fbd5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 45394
+  packageName: Easy Build System - Modular Building System
+  packageVersion: 6.8.1
+  assetPath: Assets/Easy Build System/Packages/Demos/Bases/Scripts/UI/Mobile/Demo_UIAndroidControls.cs
+  uploadId: 683841

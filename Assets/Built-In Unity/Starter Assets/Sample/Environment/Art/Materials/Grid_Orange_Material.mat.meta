@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b1359652bab25394e922a3c95b7046ef
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 45394
+  packageName: Easy Build System - Modular Building System
+  packageVersion: 6.8.1
+  assetPath: Assets/Starter Assets/Sample/Environment/Art/Materials/Grid_Orange_Material.mat
+  uploadId: 683841
