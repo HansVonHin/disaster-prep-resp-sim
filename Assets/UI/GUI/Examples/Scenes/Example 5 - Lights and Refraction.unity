@@ -105,7 +105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 35}
   - component: {fileID: 87}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Sprite (NGUI)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 36}
   - component: {fileID: 72}
   - component: {fileID: 88}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 37}
   - component: {fileID: 79}
   - component: {fileID: 83}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 38}
   - component: {fileID: 84}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Animation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 39}
   - component: {fileID: 85}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Animation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,7 +198,7 @@ GameObject:
   - component: {fileID: 94}
   - component: {fileID: 96}
   - component: {fileID: 99}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 41}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Objects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -237,7 +237,7 @@ GameObject:
   - component: {fileID: 95}
   - component: {fileID: 97}
   - component: {fileID: 98}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,7 +253,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 43}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Window - Position B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,7 +269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 44}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Window - Position A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -286,7 +286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 45}
   - component: {fileID: 107}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: UITexture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -303,7 +303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 46}
   - component: {fileID: 80}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,7 +320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 47}
   - component: {fileID: 81}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,7 +337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 48}
   - component: {fileID: 82}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -354,7 +354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 50}
   - component: {fileID: 109}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: UISlicedSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -371,7 +371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 51}
   - component: {fileID: 110}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: UILabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 100}
   - component: {fileID: 92}
   - component: {fileID: 89}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -411,7 +411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 53}
   - component: {fileID: 91}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Directional light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -430,7 +430,7 @@ GameObject:
   - component: {fileID: 106}
   - component: {fileID: 123}
   - component: {fileID: 126}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -453,7 +453,7 @@ GameObject:
   - component: {fileID: 102}
   - component: {fileID: 93}
   - component: {fileID: 90}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -470,7 +470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 56}
   - component: {fileID: 114}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: UILabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -487,7 +487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 57}
   - component: {fileID: 115}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: UISlicedSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -504,7 +504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 58}
   - component: {fileID: 116}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: UITiledSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -521,7 +521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 59}
   - component: {fileID: 117}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: UILabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -538,7 +538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 60}
   - component: {fileID: 118}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: UILabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -555,7 +555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 61}
   - component: {fileID: 119}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: UISlicedSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -572,7 +572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 62}
   - component: {fileID: 120}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: UISlicedSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -589,7 +589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 63}
   - component: {fileID: 125}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: 3D UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -612,7 +612,7 @@ GameObject:
   - component: {fileID: 112}
   - component: {fileID: 122}
   - component: {fileID: 127}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
