@@ -95,9 +95,9 @@ Will list additional assets used **ASAP**.
 Custom models and textures created by the team.
 
 ## **Licensing Notes**
--All assets used are for educational purposes and adhere to the licenses provided by their creators.
--Some assets obtained through the Unity Student Plan are for non-commercial use only.
--Future commercialization will require replacement or licensing upgrades for these assets.
+- All assets used are for educational purposes and adhere to the licenses provided by their creators.
+- Some assets obtained through the Unity Student Plan are for non-commercial use only.
+- Future commercialization will require replacement or licensing upgrades for these assets.
 
 ## **Contributing**
 Contributions are welcome! If you would like to contribute:
