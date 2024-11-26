@@ -17,7 +17,7 @@
 
 ## **Installation**
 1. Clone the Repository: <br>
-`git clone [https://github.com/HansVonHin/disaster-prep-resp-sim.git](https://github.com/HansVonHin/disaster-prep-resp-sim.git)`  
+`git clone https://github.com/HansVonHin/disaster-prep-resp-sim.git`  
 
 2. Open in Unity: <br>
 Install [Unity Hub](https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe).
@@ -55,7 +55,7 @@ Press the **Play** button in the Unity Editor to test the game.
 |Jump|Space|
 |Sprint|Shift|
 |Crouch|Ctrl|
-|[Slide|Shift+Ctrl|
+|Slide|Shift+Ctrl|
 
 Not yet implemented:
 |Action|Key/Command|
