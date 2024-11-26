@@ -1,7 +1,7 @@
-Disaster Preparedness and Response Simulation Game
-A Unity-based educational game designed to train players in disaster preparedness and response scenarios for typhoons and earthquakes. Developed as a thesis project, this game targets organizations like Red Cross, NDRRMC, schools, and other institutions to promote awareness and readiness for natural calamities.
+****Disaster Preparedness and Response Simulation Game******
+A Unity-based educational game designed to train players in disaster preparedness and response scenarios for typhoons and earthquakes. Developed as a thesis project, this game targets organizations like Red Cross, NDRRMC, schools, and other institutions to promote awareness and readiness for natural calamities.**
 
-Features
+**Features**
 Two Perspectives: 
 Play as a civilian during preparedness stages or as a frontliner in response scenarios.
 
@@ -20,7 +20,7 @@ Track objectives, hazards, and vulnerable individuals in real-time.
 Post-Mission Debriefing: 
 Evaluate your decisions and actions to improve disaster management skills.
 
-Table of Contents
+**Table of Contents**
 Installation
 How to Play
 Game Design Overview
@@ -28,7 +28,7 @@ Assets and Licensing
 Contributing
 Contact
 
-Installation
+**Installation**
 Clone the Repository:
 git clone [https://github.com/HansVonHin/disaster-prep-resp-sim.git](https://github.com/HansVonHin/disaster-prep-resp-sim.git)  
 
@@ -39,7 +39,7 @@ Open the project in Unity (compatible with Unity version 6000.0.25f1).
 Play the Game:
 Press the Play button in the Unity Editor to test the game.
 
-How to Play
+**How to Play**
 Preparedness Mode (Civilian)
 Objective: Prepare your home and family for the incoming disaster.
 
@@ -61,7 +61,7 @@ Action	Key/Command
 Move	W/A/S/D
 Pause	Esc
 
-Game Design Overview
+**Game Design Overview**
 The game is divided into two levels:
 
 Typhoon Scenario:
@@ -82,20 +82,20 @@ Interactive screen featuring objectives, hazards, and audio briefings.
 HUD: 
 Track your health, objectives, and environmental hazards during gameplay.
 
-Assets and Licensing
+**Assets and Licensing**
 Used Assets
 Unity Asset Store: 
 [https://assetstore.unity.com/mega-bundles/unity-6-toolkit](https://assetstore.unity.com/mega-bundles/unity-6-toolkit)
-Will list additional assets used ASAP.
+Will list additional assets used **ASAP**.
 
 Custom models and textures created by the team.
 
-Licensing Notes
+**Licensing Notes**
 -All assets used are for educational purposes and adhere to the licenses provided by their creators.
 -Some assets obtained through the Unity Student Plan are for non-commercial use only.
 -Future commercialization will require replacement or licensing upgrades for these assets.
 
-Contributing
+**Contributing**
 Contributions are welcome! If you would like to contribute:
 
 1. Fork the repository.
@@ -113,7 +113,7 @@ git push origin feature-name
 
 Please follow the coding standards and asset guidelines outlined in the CONTRIBUTING.md file.
 
-Contact
+**Contact**
 For inquiries or feedback, reach out to the development team:
 
 Lead Developer: 
@@ -127,7 +127,7 @@ NotNao - nao.wtanabe14@gmail.com
 
 GitHub Repository: [(https://github.com/HansVonHin/disaster-prep-resp-sim)](https://github.com/HansVonHin/disaster-prep-resp-sim)
 
-Acknowledgments
+**Acknowledgments**
 Special thanks to our thesis advisers and the Unity Student Plan.
 Inspired by SWAT 4 and Ready or Not for UI/UX design elements.
 Dedicated to promoting disaster awareness and saving lives
