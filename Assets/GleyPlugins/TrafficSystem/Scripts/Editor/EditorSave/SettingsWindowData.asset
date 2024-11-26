@@ -22,8 +22,8 @@ MonoBehaviour:
       viewLaneChanges: 0
   viewRoadsSave:
     viewRoadsSettings:
-      viewLanes: 1
-      viewWaypoints: 1
+      viewLanes: 0
+      viewWaypoints: 0
       viewLaneChanges: 0
   connectRoadsSave:
     viewRoadsSettings:

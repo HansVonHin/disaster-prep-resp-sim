@@ -91,7 +91,7 @@ namespace GleyUrbanAssets
                     Handles.color = anchorPointColor;
                     Vector3 newPos = curve.GetPoint(i, connections.GetOffset(connectionNumber));
 
-                    var fmh_94_113_638682708564484285 = Quaternion.identity; newPos = Handles.FreeMoveHandle(curve.GetPoint(i, connections.GetOffset(connectionNumber)), handleSize, Vector2.zero, Handles.SphereHandleCap);
+                    var fmh_94_113_638682778915524379 = Quaternion.identity; newPos = Handles.FreeMoveHandle(curve.GetPoint(i, connections.GetOffset(connectionNumber)), handleSize, Vector2.zero, Handles.SphereHandleCap);
                     newPos.y = curve.GetPoint(i, connections.GetOffset(connectionNumber)).y;
                     if (curve.GetPoint(i, connections.GetOffset(connectionNumber)) != newPos)
                     {
