@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/GleyPlugins.meta
 guid: 8d6aaa4ee38583049b05099033508af1
+========
+guid: c3c49b0894bfa254db697d3eb14e0ff9
+>>>>>>>> f8463c1c2809a2b480f4d429e34b55706a0f9c71:Assets/Shaders/GradientTextures.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
