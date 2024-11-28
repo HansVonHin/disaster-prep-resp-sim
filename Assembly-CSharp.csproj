@@ -468,15 +468,12 @@
     <None Include="Assets\3D\SyntyStudios\PolygonPrototype\Shaders\Prototype_Glass_Global.shader" />
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\ParticleShader.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\Libraries\Lighting.hlsl" />
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\FluidThickness.shader" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\Libraries\Features.hlsl" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - License.txt" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\UI\GUI\Examples\Atlases\Wooden\Arimo20.txt" />
     <None Include="Assets\Shaders\FlatKit [URP]\Shaders\StylizedSurface\LibraryUrp\LitForwardPass_DR.hlsl" />
     <None Include="Assets\External Plugins\Cargo\cargo_io_server.dll" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\Libraries\Reflections.hlsl" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll" />
     <None Include="Assets\UI\GUI\Examples\Models\Orc\Orc Skin.shader" />
     <None Include="Assets\UI\GUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
@@ -494,13 +491,9 @@
     <None Include="Assets\Physics\Obi\Plugins\x86_64\libOni.dll" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - AFL.txt" />
     <None Include="Assets\3D\SyntyStudios\PolygonPrototype\Shaders\Prototype_Object.shader" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\Libraries\Displacement.hlsl" />
     <None Include="Assets\Physics\RayFire\Plugins\Windows\x86_x64\RFLib_CNative_2018.dll" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\Libraries\ForwardPass.hlsl" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\Shaders\FlatKit [URP]\Demos\[Demo] Desert\Shaders\Noise\ClassicNoise3D.hlsl" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\Libraries\Tesselation.hlsl" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\Libraries\Common.hlsl" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Masked.shader" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
@@ -514,7 +507,6 @@
     <None Include="Assets\Shaders\FlatKit [URP]\Demos\[Demo] Desert\Shaders\Noise\Common.hlsl" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.xml" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\Libraries\Fog.hlsl" />
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\DistanceFieldSlice.shader" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
@@ -525,7 +517,6 @@
     <None Include="Assets\External Plugins\Sirenix\Odin Validator\Readme.txt" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\WaterCutoutMask.shader" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\NoEditor\Sirenix.Serialization.dll" />
     <None Include="Assets\UI\GUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
@@ -547,10 +538,8 @@
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
     <None Include="Assets\Shaders\FlatKit [URP]\Shaders\StylizedSurface\StylizedSurfaceOutline.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\Libraries\Caustics.hlsl" />
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\ObiEllipsoids.cginc" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\Libraries\Input.hlsl" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.Utilities.xml" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll" />
@@ -567,7 +556,6 @@
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\OpaqueFluidShader.shader" />
     <None Include="Assets\UI\GUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\Libraries\Vertex.hlsl" />
     <None Include="Assets\External Plugins\Sirenix\Readme.txt" />
     <None Include="Assets\Physics\RayFire\Info\FAQ.txt" />
     <None Include="Assets\UI\GUI\Examples\Shaders\Refractive.shader" />
@@ -578,7 +566,6 @@
     <None Include="Assets\UI\GUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\link.xml" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\SubGraphs\Readme.txt" />
     <None Include="Assets\Physics\RayFire\Plugins\Windows\x86\RFLib_DotNet_2018_x86.dll" />
     <None Include="Assets\Shaders\FlatKit [URP]\Demos\[Demo] Desert\Shaders\Library\StylizedLighting.hlsl" />
     <None Include="Assets\Physics\RayFire\Plugins\Ios\RFLib_DotNet_2018_ios.dll" />
@@ -590,7 +577,6 @@
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\FluidColorsBlend.shader" />
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\FluidColorsOpaque.shader" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\Libraries\Foam.hlsl" />
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\ObiFluids.cginc" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Physics\RayFire\Info\CHANGELOG.txt" />
@@ -608,7 +594,6 @@
     <None Include="Assets\UI\GUI\Examples\Models\Orc Armor\Orc Armor.shader" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\LitParticles.shader" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\Libraries\Waves.hlsl" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\NoEmitAndNoEditor\Sirenix.Utilities.dll" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
@@ -630,7 +615,6 @@
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
-    <None Include="Assets\Shaders\StylizedWater2\Shaders\Libraries\URP.hlsl" />
     <None Include="Assets\Shaders\FlatKit [URP]\[Render Pipeline] URP\Water\Shaders\Water.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -2132,10 +2116,6 @@
       <Project>{19062158-375C-8FC1-A144-FB833B050E68}</Project>
       <Name>RayFireEditorAssembly</Name>
     </ProjectReference>
-    <ProjectReference Include="sc.stylizedwater2.runtime.csproj">
-      <Project>{FEDC6852-AF42-18A4-9359-86822CC22D4E}</Project>
-      <Name>sc.stylizedwater2.runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.StarterAssets.csproj">
       <Project>{E51996BF-B198-FD35-535C-39FA3C6D1269}</Project>
       <Name>Unity.StarterAssets</Name>
@@ -2183,10 +2163,6 @@
     <ProjectReference Include="AllIn1SpriteShaderAssembly.csproj">
       <Project>{5EE19C15-8E36-E55B-77D9-8118BB1AC2AA}</Project>
       <Name>AllIn1SpriteShaderAssembly</Name>
-    </ProjectReference>
-    <ProjectReference Include="sc.stylizedwater2.editor.csproj">
-      <Project>{A6927B7A-44D7-4E58-C77D-11ADC82D4715}</Project>
-      <Name>sc.stylizedwater2.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.StarterAssets.Editor.csproj">
       <Project>{B2FCA333-CB27-775C-51C5-995A7009BDF6}</Project>

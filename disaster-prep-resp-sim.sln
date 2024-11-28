@@ -17,8 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProjectEdit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RayFireAssembly", "RayFireAssembly.csproj", "{45F6E82A-E856-B93D-8077-D67214A75E13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.stylizedwater2.editor", "sc.stylizedwater2.editor.csproj", "{A6927B7A-44D7-4E58-C77D-11ADC82D4715}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternAttributes.Editor", "ExternAttributes.Editor.csproj", "{A9868AC2-E148-BD06-8818-AA58CAB10420}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.Modules.Unity.Addressables", "Sirenix.OdinInspector.Modules.Unity.Addressables.csproj", "{9C0F45B7-C241-6053-0AE5-D15B028D3EA3}"
@@ -28,8 +26,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProject", "AstarPathfindingProject.csproj", "{8AA70112-E747-D6F3-B0CA-C861D9586DDA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllIn1SpriteShaderAssembly", "AllIn1SpriteShaderAssembly.csproj", "{5EE19C15-8E36-E55B-77D9-8118BB1AC2AA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.stylizedwater2.runtime", "sc.stylizedwater2.runtime.csproj", "{FEDC6852-AF42-18A4-9359-86822CC22D4E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.StarterAssets.Editor", "Unity.StarterAssets.Editor.csproj", "{B2FCA333-CB27-775C-51C5-995A7009BDF6}"
 EndProject
@@ -85,10 +81,6 @@ Global
 		{45F6E82A-E856-B93D-8077-D67214A75E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45F6E82A-E856-B93D-8077-D67214A75E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45F6E82A-E856-B93D-8077-D67214A75E13}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A6927B7A-44D7-4E58-C77D-11ADC82D4715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6927B7A-44D7-4E58-C77D-11ADC82D4715}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6927B7A-44D7-4E58-C77D-11ADC82D4715}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6927B7A-44D7-4E58-C77D-11ADC82D4715}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A9868AC2-E148-BD06-8818-AA58CAB10420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A9868AC2-E148-BD06-8818-AA58CAB10420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9868AC2-E148-BD06-8818-AA58CAB10420}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -109,10 +101,6 @@ Global
 		{5EE19C15-8E36-E55B-77D9-8118BB1AC2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EE19C15-8E36-E55B-77D9-8118BB1AC2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EE19C15-8E36-E55B-77D9-8118BB1AC2AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FEDC6852-AF42-18A4-9359-86822CC22D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FEDC6852-AF42-18A4-9359-86822CC22D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FEDC6852-AF42-18A4-9359-86822CC22D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FEDC6852-AF42-18A4-9359-86822CC22D4E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B2FCA333-CB27-775C-51C5-995A7009BDF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B2FCA333-CB27-775C-51C5-995A7009BDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2FCA333-CB27-775C-51C5-995A7009BDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU

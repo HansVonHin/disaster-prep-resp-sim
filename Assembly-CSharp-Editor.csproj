@@ -1951,10 +1951,6 @@
       <Project>{19062158-375C-8FC1-A144-FB833B050E68}</Project>
       <Name>RayFireEditorAssembly</Name>
     </ProjectReference>
-    <ProjectReference Include="sc.stylizedwater2.runtime.csproj">
-      <Project>{FEDC6852-AF42-18A4-9359-86822CC22D4E}</Project>
-      <Name>sc.stylizedwater2.runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.StarterAssets.csproj">
       <Project>{E51996BF-B198-FD35-535C-39FA3C6D1269}</Project>
       <Name>Unity.StarterAssets</Name>
@@ -2002,10 +1998,6 @@
     <ProjectReference Include="AllIn1SpriteShaderAssembly.csproj">
       <Project>{5EE19C15-8E36-E55B-77D9-8118BB1AC2AA}</Project>
       <Name>AllIn1SpriteShaderAssembly</Name>
-    </ProjectReference>
-    <ProjectReference Include="sc.stylizedwater2.editor.csproj">
-      <Project>{A6927B7A-44D7-4E58-C77D-11ADC82D4715}</Project>
-      <Name>sc.stylizedwater2.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.StarterAssets.Editor.csproj">
       <Project>{B2FCA333-CB27-775C-51C5-995A7009BDF6}</Project>
