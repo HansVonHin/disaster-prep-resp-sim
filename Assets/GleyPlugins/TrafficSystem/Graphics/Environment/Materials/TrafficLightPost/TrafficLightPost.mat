@@ -8,18 +8,23 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TrafficLightPost
-  m_Shader: {fileID: 4800000, guid: b7839dad95683814aa64166edc107ae2, type: 3}
-  m_Parent: {fileID: 2100000, guid: 921cc74fff84e1540b7b7204b948e9df, type: 2}
-  m_ModifiedSerializedProperties: 2
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Parent: {fileID: 2100000, guid: c29d9dff2056b1543bbb70ec32427a62, type: 2}
+  m_ModifiedSerializedProperties: 18
   m_ValidKeywords:
-  - _ALPHAPREMULTIPLY_ON
   - _EMISSION
-  - _FADING_ON
-  - _SOFTPARTICLES_ON
+  - _NORMALMAP
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords:
+  - DR_OUTLINE_ON
+  - DR_SPECULAR_ON
   - _CELPRIMARYMODE_SINGLE
+  - _DETAILMAPBLENDINGMODE_MULTIPLY
+  - _FADING_ON
   - _FLIPBOOKBLENDING_OFF
+  - _GRADIENTSPACE_WORLD
+  - _OUTLINESPACE_SCREEN
+  - _SOFTPARTICLES_ON
   - _TEXTUREBLENDINGMODE_MULTIPLY
   - _UNITYSHADOWMODE_NONE
   m_LightmapFlags: 1
@@ -29,18 +34,23 @@ Material:
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
+  - MOTIONVECTORS
   - DepthOnly
   - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
     m_Colors:
-    - _BaseColor: {r: 1, g: 0.027450982, b: 0, a: 0.2509804}
-    - _Color: {r: 1, g: 0.027450982, b: 0, a: 0.2509804}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 0.2509804}
+    - _Color: {r: 0, g: 0, b: 0, a: 0.2509804}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
