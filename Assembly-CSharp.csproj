@@ -257,9 +257,9 @@
     <Compile Include="Assets\UI\GUI\Scripts\Internal\ByteReader.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Buildings\Part\Conditions\BuildingNavMeshCondition.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Addons\Circular Building Menu\Scripts\UICircularBuildingMenuButton.cs" />
-    <Compile Include="Assets\UI\SlimUI\Modern Menu 1\Scripts\Managers\UISettingsManager.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Actions\vGenericAction.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vFrameLimiter.cs" />
+    <Compile Include="Assets\UI\SlimUI\Modern Menu 1\Scripts\Managers\UISettingsManager.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Tweening\TweenScale.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vICharacter.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Managers\DensityManager.cs" />
@@ -435,8 +435,8 @@
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Buildings\Placer\InputHandler\StandaloneInputHandler.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vTargetLookAt.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\UI\UILabel.cs" />
-    <Compile Include="Assets\UI\GUI\Scripts\Interaction\UISoundVolume.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Health\vDamageModifierController.cs" />
+    <Compile Include="Assets\UI\GUI\Scripts\Interaction\UISoundVolume.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\BodySnapSystem\Scripts\vSnapToBody.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\vCheckPropertyAttribute.cs" />
     <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\CollisionEventHandler.cs" />
@@ -562,8 +562,8 @@
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Buildings\Group\BuildingGroup.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vEnableDisableEvent.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Runtime\Grid\GridManager.cs" />
-    <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIDragResize.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vComment.cs" />
+    <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIDragResize.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Other\Wheel.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Addons\Advanced Buildings\Scripts\AdvancedBuildingManager.cs" />
     <Compile Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
@@ -589,8 +589,8 @@
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\HeadTrack\Scripts\vHeadTrackSensor.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Demos\Bases\Scripts\UI\Mobile\Demo_UIVirtualJoystick.cs" />
     <Compile Include="Assets\UI\GUI\Examples\Scripts\InventorySystem\Game\UIStorageSlot.cs" />
-    <Compile Include="Assets\Built-In Unity\Build System\Packages\Demos\Bases\Scripts\ThirdPerson\Demo_ThirdPersonController.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Interactables\vPlatform.cs" />
+    <Compile Include="Assets\Built-In Unity\Build System\Packages\Demos\Bases\Scripts\ThirdPerson\Demo_ThirdPersonController.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Internal\AnimationOrTween.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIImageButton.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vThirdPersonAnimator.cs" />
