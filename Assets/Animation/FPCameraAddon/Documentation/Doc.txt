@@ -1,0 +1,15 @@
+Content:
+----------------------------------------------------------------------------------------------------
+- vFirstPerson.CS : The main script.
+- Demo scenes
+
+Instructions:
+-------------------------------------------------------------------------------------------------------------------
+
+vFirstPerson.CS
+***********************
+
+1 - drop the inVector Controller prefab on your scene and add this script on it.
+2 - assign the camera gameobject child of vThirdPersonCamera into the MainCamera of this script in the editor
+3 - Have fun! Adjust settings to your needs.
+3.1 - OPTIONAL: There is a FP@CameraState profile added in Prefabs > Camera. You can use this as a base for your camera settings.

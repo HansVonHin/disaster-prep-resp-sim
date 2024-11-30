@@ -221,6 +221,7 @@
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\WindowsSetup\SettingsLoader.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Collisions\ObiDistanceFieldEditor.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\WaypointSetup\ShowVehicleTypeEditedWaypoints.cs" />
+    <Compile Include="Assets\Animation\FPCameraAddon\Scripts\Editor\FPCameraIcons.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\HeadTrack\Editor\vLookTargetEditor.cs" />
     <Compile Include="Assets\Shaders\FlatKit [URP]\Demos\Common\Scripts\Motion\Editor\LinearMotionEditor.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UITexturePacker.cs" />

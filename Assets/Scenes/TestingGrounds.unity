@@ -2445,6 +2445,7 @@ GameObject:
   - component: {fileID: 428758420}
   - component: {fileID: 428758422}
   - component: {fileID: 428758421}
+  - component: {fileID: 428758423}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -2526,6 +2527,50 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &428758423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428758419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &440837331
 GameObject:
   m_ObjectHideFlags: 0
@@ -8495,6 +8540,7 @@ GameObject:
   - component: {fileID: 1514515704}
   - component: {fileID: 1514515703}
   - component: {fileID: 1514515702}
+  - component: {fileID: 1514515712}
   m_Layer: 8
   m_Name: PolygonSyntyCharacter
   m_TagString: Player
@@ -9267,6 +9313,51 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1514515712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514515700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f3a1d372e6451c4bb24139bce713b4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openCloseEvents: 0
+  openCloseWindow: 1
+  selectedToolbar: 0
+  mainCamera: {fileID: 428758422}
+  cameraNearClip: 0.01
+  cameraYOffset: -0.15
+  cameraZOffset: 0.1
+  enableHeadCollider: 1
+  showGizmos: 1
+  colliderRadius: 0.12
+  colliderCenter: {x: 0, y: 0.1, z: 0.04}
+  actionHAngleLimit: 90
+  animatorUpdateMode: 1
+  strafeBodyIKWeight: 1.25
+  freeBodyIKWeight: 1.25
+  RotationThld: 55
+  cinematicOnActions: 0
+  cinematicOnRequest: 1
+  addCrosshair: 1
+  cameraModeKey: 102
+  isThirdPerson: 0
+  defaultThirdLocomotion: 0
+  thrdCameraDefaultStrafe: 0
+  FirstPersonMode:
+    m_PersistentCalls:
+      m_Calls: []
+  ThirdPersonMode:
+    m_PersistentCalls:
+      m_Calls: []
+  animatorStateInfos:
+    debug: 0
+    animator: {fileID: 0}
+    stateInfos: []
 --- !u!1001 &1523330974
 PrefabInstance:
   m_ObjectHideFlags: 0
