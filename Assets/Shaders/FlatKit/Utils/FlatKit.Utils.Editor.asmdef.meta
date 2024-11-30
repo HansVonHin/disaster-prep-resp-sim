@@ -10,5 +10,5 @@ AssetOrigin:
   productId: 143368
   packageName: 'Flat Kit: Toon Shading and Water'
   packageVersion: 4.8.0
-  assetPath: Assets/Shaders/FlatKit/Utils/FlatKit.Utils.Editor.asmdef
+  assetPath: Assets/FlatKit/Utils/FlatKit.Utils.Editor.asmdef
   uploadId: 710077

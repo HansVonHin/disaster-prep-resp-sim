@@ -465,7 +465,6 @@
     <None Include="Assets\Physics\Obi\Samples\Fluid\SampleResources\Materials\StandardPerInstanceColor.shader" />
     <None Include="Assets\Built-In Unity\Build System\Easy Build System - Third-Party Notice.txt" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\3D\SyntyStudios\PolygonPrototype\Shaders\Prototype_Glass_Global.shader" />
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\ParticleShader.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\FluidThickness.shader" />
@@ -490,7 +489,6 @@
     <None Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\Physics\Obi\Plugins\x86_64\libOni.dll" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - AFL.txt" />
-    <None Include="Assets\3D\SyntyStudios\PolygonPrototype\Shaders\Prototype_Object.shader" />
     <None Include="Assets\Physics\RayFire\Plugins\Windows\x86_x64\RFLib_CNative_2018.dll" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\Shaders\FlatKit [URP]\Demos\[Demo] Desert\Shaders\Noise\ClassicNoise3D.hlsl" />
@@ -524,7 +522,6 @@
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\StandardVertexColors.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
-    <None Include="Assets\3D\SyntyStudios\PolygonPrototype\Shaders\Prototype_Global.shader" />
     <None Include="Assets\Shaders\FlatKit [URP]\Shaders\StylizedSurface\LibraryUrp\Lighting_DR.hlsl" />
     <None Include="Assets\Built-In Unity\Starter Assets\Sample\Environment\Shaders\Built-in_RP\Triplanar.shader" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Text 3.shader" />
@@ -593,7 +590,6 @@
     <None Include="Assets\Physics\RayFire\Info\README.txt" />
     <None Include="Assets\Physics\RayFire\WhereToStart.txt" />
     <None Include="Assets\UI\GUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
-    <None Include="Assets\3D\SyntyStudios\PolygonPrototype\Shaders\Prototype_Glass_Object.shader" />
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\DielectricFluidShader.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\UI\GUI\Examples\Models\Orc Armor\Orc Armor.shader" />
