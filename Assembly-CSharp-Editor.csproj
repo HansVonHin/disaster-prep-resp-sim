@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_6000_0_25;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;CROSS_PLATFORM_INPUT;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ODIN_INSPECTOR_3_2;ODIN_INSPECTOR_3_3;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ODIN_VALIDATOR_3_2;ODIN_VALIDATOR_3_3;USE_GLEY_TRAFFIC;EASYROADS3D_PRO;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
+    <DefineConstants>UNITY_6000_0_25;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;CROSS_PLATFORM_INPUT;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ODIN_INSPECTOR_3_2;ODIN_INSPECTOR_3_3;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ODIN_VALIDATOR_3_2;ODIN_VALIDATOR_3_3;USE_GLEY_TRAFFIC;EASYROADS3D_PRO;INVECTOR_BASIC;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
@@ -79,7 +79,9 @@
     <Compile Include="Assets\UI\GUI\Scripts\Editor\NGUIContextMenu.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIPopupListInspector.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\NGUIHelp.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\Editor\vAnimatorTagEditor.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\SceneSetup\GridSetupWindow.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\Editor\vSelectableStringDrawer.cs" />
     <Compile Include="Assets\GleyPlugins\Common\Editor\PreprocessorDirective.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIProgressBarEditor.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\ObiParticleEditorDrawing.cs" />
@@ -89,6 +91,9 @@
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiColorSmoothBrushMode.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WaypointsDraw\DrawGrid.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiFloatAddBrushMode.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Camera\Editor\vScriptableObjectUtility.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\FootStep\Editor\vFootStepEditor.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\Editor\vButtonDrawer.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WindowsSetup\SettingsWindowData.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\WindowsSetup\TrafficWindownNavigationData.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Fluid\ObiEmitterEditor.cs" />
@@ -109,13 +114,19 @@
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UISpriteInspector.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintSelected.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\EventDelegateDrawer.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Editor\vBasicControllerDefineSymbols.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIDrawCallInspector.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WaypointsDraw\BezierCurve.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\Editor\vCommentEditor.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintLayer.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WindowsSetup\SettingsLoader.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterCreator\Script\Editor\vBasicMenuComponent.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Utils\ObiParticleAttachmentEditor.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\Editor\vHideInInspectorDrawer.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterCreator\Script\Editor\vCreateBasicCharacterEditor.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\NGUIEditorExtensions.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiBrushMode.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\Editor\vSeparatorDrawer.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WaypointsDraw\RoadCreator.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\TweenPositionEditor.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\ObiMeshUtils.cs" />
@@ -124,6 +135,7 @@
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\IntersectionSetup\TrafficLightsIntersectionWindow.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WindowsSetup\ViewRoadsWindowBase.cs" />
     <Compile Include="Assets\Shaders\FlatKit [URP]\[Render Pipeline] URP\Water\Editor\WaterEditor.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\Editor\vCheckPropertyDrawer.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WaypointsDraw\RoadDrawer.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\VehicleSetup\VehicleTypesWindow.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\Buildings\Placer\InputHandler\ModileInputHandlerEditor.cs" />
@@ -138,9 +150,11 @@
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WaypointsDraw\WaypointDrawerBase.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIInputEditor.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\WaypointSetup\ShowVehiclePathProblems.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\Editor\vHelpBoxDecorator.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Brushes\ObiRaycastBrush.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\RoadSetup\ViewRoadsWindow.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\TweenColorEditor.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\Editor\vMinMaxAttributeDrawer.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WaypointsDraw\Customizations.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Properties\IObiPropertyEditableProvider.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIGridEditor.cs" />
@@ -150,6 +164,7 @@
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiFloatPaintBrushMode.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIAtlasInspector.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WindowsSetup\NewRoadWindowBase.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Editor\vEditorHelper.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\BlueprintEditorTools\ObiPropertyTextureEditorTool.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WindowsSetup\ImportPackagesWindow.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WindowsSetup\NavigationRuntimeData.cs" />
@@ -194,16 +209,19 @@
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIPrefabTool.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\RoadSetup\RoadSetupWindow.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIButtonEditor.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Editor\vGenericInputDrawer.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WaypointsDraw\GridEditor.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Properties\BaseTypes\ObiBlueprintIntProperty.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\ExternalTools\CidySetup.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\Buildings\Placer\InputHandler\StandaloneInputHandlerEditor.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WaypointsDraw\DrawRoadConnectorsBase.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\Editor\vAnimatorTagEditorHelper.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WaypointsDraw\LaneDrawer.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\WaypointSetup\EditWaypointWindow.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\WindowsSetup\SettingsLoader.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Collisions\ObiDistanceFieldEditor.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\WaypointSetup\ShowVehicleTypeEditedWaypoints.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\HeadTrack\Editor\vLookTargetEditor.cs" />
     <Compile Include="Assets\Shaders\FlatKit [URP]\Demos\Common\Scripts\Motion\Editor\LinearMotionEditor.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UITexturePacker.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\BlueprintEditorTools\ObiBlueprintEditorTool.cs" />
@@ -211,6 +229,7 @@
     <Compile Include="Assets\UI\GUI\Scripts\Editor\NGUIAtlasInspector.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\MainMenuWindow.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\ExternalTools\EasyRoads\EasyRoadsMethods.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\Editor\vReadOnlyAttributeDrawer.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintRadius.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\ProjectIntegrity.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\ActiveAnimationEditor.cs" />
@@ -219,6 +238,7 @@
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIButtonMessageEditor.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\ObiStitcherEditor.cs" />
     <Compile Include="Assets\Shaders\FlatKit [URP]\Shaders\Editor\ObjectOutlineEditorUtils.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Ragdoll\Editor\vRagdollBuilder.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WaypointsDraw\RoadsLoader.cs" />
     <Compile Include="Assets\GleyPlugins\About\Editor\IconReferences.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIRootEditor.cs" />
@@ -226,8 +246,10 @@
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\IntersectionSetup\PriorityIntersectionWindow.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UISpriteCollectionEditor.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\FreeType.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterCreator\Script\Editor\vHelperEditor.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\WaypointSetup\ShowAllWaypoints.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Properties\BaseTypes\ObiBlueprintFloatProperty.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Camera\CullingFadeControl\Editor\vCullingFadeControlEditor.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\WaypointSetup\ShowGiveWayWaypoints.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Properties\BaseTypes\ObiBlueprintBoolProperty.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Properties\BaseTypes\ObiBlueprintProperty.cs" />
@@ -265,18 +287,26 @@
     <Compile Include="Assets\Physics\Obi\Editor\Common\Utils\PreviewHelpers.cs" />
     <Compile Include="Assets\GleyPlugins\About\Editor\AssetVersions.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIPlayTweenEditor.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Editor\vGenericInputSelector.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\Bases\Drawers\CustomHeaderDrawer.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\BodySnapSystem\Scripts\Editor\vBodyStructEditor.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\Buildings\Manager\Saver\BuildingSaverEditor.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\Windows\PackageImporter.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\BodySnapSystem\Scripts\Editor\vBodySnappingControlEditor.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIBasicSpriteEditor.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderModeShapeMatchingConstraints.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WindowsSetup\EditWaypointWindowBase.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\MinMaxRangeAttributeDrawer.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\Editor\vCheckForProjectSettings.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\Editor\vBasicUtilsMenu.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Editor\vThirdPersonControllerEditor.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\BlueprintEditorTools\ObiTethersTool.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\NGUIEditorTools.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\Editor\vAnimatorEventEditor.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Brushes\ObiBrushBase.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\Utilities\FileCreator.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Brushes\ObiScreenSpaceBrush.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Editor\InvectorDefineSymbolsManager.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\Buildings\Manager\Collection\BuildingCollectionEditor.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Solver\ObiSolverEditor.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WindowsSetup\ConnectRoadsWindowBase.cs" />
@@ -285,17 +315,20 @@
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WaypointsDraw\WaypointsGenerator.cs" />
     <Compile Include="Assets\GleyPlugins\About\Editor\AssetStorePackage.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\Buildings\Group\BuildingGroupEditor.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\Editor\vAnimatorTagAdvancedEditor.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIButtonKeysEditor.cs" />
     <Compile Include="Assets\GleyPlugins\Common\Editor\Constants.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\Buildings\Placer\InspectorBuildingPlacerEditor.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIPlayAnimationEditor.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\TweenScaleEditor.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Editor\vInspectorSearchTool.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\Draw\WaypointDrawer.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIPanelInspector.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Rendering\ObiParticleRendererEditor.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UICameraTool.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIAnchorEditor.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIPanelTool.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\FootStep\Editor\vAudioSurfaceEditor.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WindowsSetup\RoadSetupWindowBase.cs" />
     <Compile Include="Assets\GleyPlugins\About\Editor\GleyAboutWindow.cs" />
     <Compile Include="Assets\Shaders\FlatKit [URP]\[Render Pipeline] URP\Water\Editor\Tooltips.cs" />
@@ -303,14 +336,19 @@
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UICreateNewUIWizard.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\Buildings\Socket\BuildingSocketEditor.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\Connections\TrafficConnectionWaypoints.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\Editor\vBarDisplayAttributeDrawer.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Camera\Editor\vThirdPersonCameraEditor.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintColor.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\Editor\vTagMaskDrawer.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderModeBendConstraints.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\Extensions\ReorderableList\ReorderableList.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\PropertyBindingEditor.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIWidgetInspector.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\Editor\vToggleOptionAttributeDrawer.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\NGUIHandles.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\Extensions\ReadMe\ReadMe.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UISliderEditor.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\BodySnapSystem\Scripts\Editor\vSnapToBodyEditor.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\WaypointSetup\ShowStopWaypoints.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\ExternalTools\ExternalToolsWindow.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\Other\VehicleComponentEditor.cs" />
@@ -323,6 +361,7 @@
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\RenderModes\ObiBlueprintRenderModeMesh.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UICreateWidgetWizard.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\Utilities\GleyPrefabUtilities.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Health\Editor\vDamageModifierDrawer.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\Buildings\Part\BuildingPartEditor.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UILocalizeEditor.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Grid\Editor\GridEditor.cs" />
@@ -332,17 +371,21 @@
     <Compile Include="Assets\UI\GUI\Scripts\Editor\ComponentSelector.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\SceneSetup\SceneSetupWindow.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\Buildings\Manager\BuildingManagerEditor.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Editor\vInvectorStartup.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\ObiActorBlueprintEditor.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\ObiEditorSettings.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIScrollBarEditor.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Fluid\ObiEmitterShapeEditor.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WaypointsDraw\RoadConnectionsBase.cs" />
     <Compile Include="Assets\Shaders\FlatKit [URP]\Shaders\Editor\StylizedSurfaceEditor.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Editor\Resources\vEditorStartupPrefs.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIKeyNavigationEditor.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WindowsSetup\ISetupWindow.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Editor\vInvectorIcon.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\Extensions\ReorderableList\BackgroundUtility.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\TweenFOVEditor.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\WaypointSetup\ShowDisconnectedWaypoints.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Editor\vInvectorWelcomeWindow.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Editor\MenuComponent.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Brushes\BrushModes\ObiSelectBrushMode.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Properties\ObiBlueprintMass.cs" />
@@ -365,6 +408,7 @@
     <None Include="Assets\Physics\Obi\Editor\Resources\PropertyGradientMaterial.shader" />
     <None Include="Assets\Physics\Obi\Editor\Resources\EditorParticle.shader" />
     <None Include="Assets\Physics\Obi\Editor\Resources\UVSpaceColor.shader" />
+    <None Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Editor\Resources\vTriplanar.shader" />
     <None Include="Assets\External Plugins\Sirenix\Odin Inspector\Assets\Editor\Hidden\ExtractSpriteShader.shader" />
     <None Include="Assets\External Plugins\Sirenix\Odin Inspector\Assets\Editor\Hidden\GUIUtilShader.shader" />
     <None Include="Assets\Physics\Obi\Editor\Resources\DistanceFieldPreview.shader" />

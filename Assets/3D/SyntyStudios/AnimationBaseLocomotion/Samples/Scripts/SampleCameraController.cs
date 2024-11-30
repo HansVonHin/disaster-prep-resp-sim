@@ -17,6 +17,7 @@ namespace Synty.AnimationBaseLocomotion.Samples
         [Tooltip("The character game object")]
         [SerializeField]
         private GameObject _syntyCharacter;
+
         [Tooltip("Main camera used for player perspective")]
         [SerializeField]
         private Camera _mainCamera;
@@ -48,6 +49,15 @@ namespace Synty.AnimationBaseLocomotion.Samples
         private float _positionalCameraLag = 1f;
         [SerializeField]
         private float _rotationalCameraLag = 1f;
+
+        [Tooltip("Radius of the camera collision detection sphere")]
+        [SerializeField]
+        private float _cameraCollisionRadius = 2.5f;
+
+        [Tooltip("Layers the camera should collide with")]
+        [SerializeField]
+        private LayerMask _collisionLayers;
+
         private float _cameraInversion;
 
         private InputReader _inputReader;
@@ -57,7 +67,6 @@ namespace Synty.AnimationBaseLocomotion.Samples
         private Vector3 _lastPosition;
 
         private float _newAngleX;
-
         private float _newAngleY;
         private Vector3 _newPosition;
         private float _rotationX;
@@ -121,6 +130,9 @@ namespace Synty.AnimationBaseLocomotion.Samples
             _newPosition = _playerTarget.position;
             _newPosition = Vector3.Lerp(_lastPosition, _newPosition, positionalFollowSpeed * Time.deltaTime);
 
+            // Handle camera collision
+            HandleCameraCollision();
+
             transform.position = _newPosition;
             transform.eulerAngles = new Vector3(_newAngleX, _newAngleY, 0);
 
@@ -130,6 +142,27 @@ namespace Synty.AnimationBaseLocomotion.Samples
             _lastPosition = _newPosition;
             _lastAngleX = _newAngleX;
             _lastAngleY = _newAngleY;
+        }
+
+        /// <summary>
+        /// Handles camera collision with solid objects in the scene.
+        /// </summary>
+        private void HandleCameraCollision()
+        {
+            Vector3 desiredCameraPosition = _playerTarget.position
+                - transform.forward * _cameraDistance
+                + Vector3.up * _cameraHeightOffset;
+
+            if (Physics.SphereCast(_playerTarget.position, _cameraCollisionRadius,
+                (desiredCameraPosition - _playerTarget.position).normalized, out RaycastHit hit,
+                _cameraDistance, _collisionLayers))
+            {
+                float adjustedDistance = hit.distance - _cameraCollisionRadius;
+                desiredCameraPosition = _playerTarget.position
+                    + (desiredCameraPosition - _playerTarget.position).normalized * adjustedDistance;
+            }
+
+            _syntyCamera.position = desiredCameraPosition;
         }
 
         /// <summary>

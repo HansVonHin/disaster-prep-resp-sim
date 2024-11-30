@@ -43,8 +43,8 @@ MonoBehaviour:
     serializedValue: 1
     changedFromDefault: 1
   PingOnDoubleClick:
-    serializedValue: 0
-    changedFromDefault: 0
+    serializedValue: 1
+    changedFromDefault: 1
   FocusObjectOnDoubleClick:
     serializedValue: 0
     changedFromDefault: 0
