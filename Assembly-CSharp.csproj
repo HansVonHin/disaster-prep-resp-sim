@@ -510,6 +510,7 @@
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\DistanceFieldSlice.shader" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
+    <None Include="Assets\3D\SyntyStudios\PolygonNightclubs\Shaders\SyntyStudios_EmissiveScroll.shader" />
     <None Include="Assets\External Plugins\Cargo\EnterprisePipelineDotNet.dll" />
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\ObiParticles.cginc" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
@@ -535,6 +536,7 @@
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\SimpleParticleShader.shader" />
     <None Include="Assets\Shaders\FlatKit [URP]\Demos\[Demo] Desert\Shaders\DesertCloud.hlsl" />
     <None Include="Assets\Physics\RayFire\Plugins\Windows\x86\RFLib_CNative_2018_x86.dll" />
+    <None Include="Assets\3D\SyntyStudios\PolygonNightclubs\Shaders\SyntyStudios_Building.shader" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
     <None Include="Assets\Shaders\FlatKit [URP]\Shaders\StylizedSurface\StylizedSurfaceOutline.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
@@ -564,6 +566,8 @@
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\NormalReconstruction.shader" />
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\ScreenSpaceCurvatureFlow.shader" />
     <None Include="Assets\UI\GUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+    <None Include="Assets\3D\SyntyStudios\PolygonNightclubs\Shaders\SyntyStudios_Flipbook.shader" />
+    <None Include="Assets\3D\SyntyStudios\PolygonNightclubs\Shaders\SyntyStudios_Skybox.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\link.xml" />
     <None Include="Assets\Physics\RayFire\Plugins\Windows\x86\RFLib_DotNet_2018_x86.dll" />
@@ -584,6 +588,7 @@
     <None Include="Assets\External Plugins\Cargo\KitBash3D.Cargo.dll" />
     <None Include="Assets\Shaders\FlatKit [URP]\Shaders\StylizedSurface\TerrainLitAdd_DR.shader" />
     <None Include="Assets\Physics\RayFire\Plugins\Mac\RFLib_DotNet_2018_osx.dll" />
+    <None Include="Assets\3D\SyntyStudios\PolygonNightclubs\Shaders\SyntyStudios_FlipbookCutout.shader" />
     <None Include="Assets\Built-In Unity\Starter Assets\Sample\Environment\Shaders\Built-in_RP\ArmatureShader.shader" />
     <None Include="Assets\Physics\RayFire\Info\README.txt" />
     <None Include="Assets\Physics\RayFire\WhereToStart.txt" />
@@ -605,6 +610,7 @@
     <None Include="Assets\Shaders\FlatKit [URP]\Shaders\StylizedSurface\Terrain.shader" />
     <None Include="Assets\Physics\Obi\Resources\ObiMaterials\ObiUtils.cginc" />
     <None Include="Assets\GleyPlugins\TrafficSystem\Scripts\Version.txt" />
+    <None Include="Assets\3D\SyntyStudios\PolygonNightclubs\Shaders\SyntyStudios_EmissiveColourChange.shader" />
     <None Include="Assets\UI\GUI\Examples\Shaders\Unlit - Additive Colored.shader" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.Serialization.xml" />
