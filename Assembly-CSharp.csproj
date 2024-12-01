@@ -163,7 +163,6 @@
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Enums\BlinkType.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Jobs\UpdateTriggerJob.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Buildings\Placer\InputHandler\BaseInputHandler.cs" />
-    <Compile Include="Assets\3D\SyntyStudios\AnimationBaseLocomotion\Samples\Scripts\SampleObjectLockOn.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Managers\TrafficManager.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Example\UI\UIInput.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIToggle.cs" />
@@ -306,7 +305,6 @@
     <Compile Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Example\UI\CameraFollow.cs" />
     <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\CharacterController\SampleCharacterController.cs" />
-    <Compile Include="Assets\3D\SyntyStudios\AnimationBaseLocomotion\Samples\Scripts\InputSystem\InputReader.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Tweening\TweenHeight.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vSelectableStringAttribute.cs" />
     <Compile Include="Assets\UI\GUI\Examples\Scripts\Other\LoadLevelOnClick.cs" />
@@ -316,7 +314,6 @@
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vAnimatorParameter.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Internal\UIGeometry.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Demos\Bases\Scripts\Demo_XRController.cs" />
-    <Compile Include="Assets\3D\SyntyStudios\AnimationBaseLocomotion\Samples\Scripts\SamplePlayerAnimationController.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Addons\Circular Building Menu\Scripts\UICircularBuildingMenu.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Addons\Advanced Buildings\Scripts\IInteractable.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Internal\NGUIText.cs" />
@@ -351,7 +348,6 @@
     <Compile Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Triggers\vFindSpawnPoint.cs" />
     <Compile Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-    <Compile Include="Assets\3D\SyntyStudios\AnimationBaseLocomotion\Samples\Scripts\SampleCameraController.cs" />
     <Compile Include="Assets\UI\GUI\Examples\Scripts\Other\LagPosition.cs" />
     <Compile Include="Assets\UI\GUI\Examples\Scripts\Other\OpenURLOnClick.cs" />
     <Compile Include="Assets\Physics\RayFire\Tutorial\Scripts\ConnectivityEventScript.cs" />
@@ -607,7 +603,6 @@
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\EditorOnlyMonoBehaviours\Intersection\GenericIntersectionSettings.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\EditorOnlyMonoBehaviours\Intersection\PriorityIntersectionSettings.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vHUDController.cs" />
-    <Compile Include="Assets\3D\SyntyStudios\AnimationBaseLocomotion\Samples\Scripts\InputSystem\Controls.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\ToUse\TrafficComponent.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\UI\UISpriteCollection.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\vAnimatorSetTrigger.cs" />
