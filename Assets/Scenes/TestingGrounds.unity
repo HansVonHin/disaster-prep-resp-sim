@@ -8556,7 +8556,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514515700}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.00000004371139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9330,8 +9330,8 @@ MonoBehaviour:
   selectedToolbar: 0
   mainCamera: {fileID: 428758422}
   cameraNearClip: 0.01
-  cameraYOffset: -0.15
-  cameraZOffset: 0.1
+  cameraYOffset: 0.01
+  cameraZOffset: 0.125
   enableHeadCollider: 1
   showGizmos: 1
   colliderRadius: 0.12
@@ -12495,7 +12495,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4438944492969619799}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

@@ -176,8 +176,8 @@
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WaypointsDraw\MoveTools.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIAtlasMaker.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\NGUISelectionTools.cs" />
-    <Compile Include="Assets\UI\GUI\Scripts\Editor\UICameraEditor.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\TweenWidthEditor.cs" />
+    <Compile Include="Assets\UI\GUI\Scripts\Editor\UICameraEditor.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\BlueprintEditorTools\ObiPaintBrushEditorTool.cs" />
     <Compile Include="Assets\Shaders\FlatKit [URP]\Shaders\GradientSkybox\Editor\GradientSkyboxEditor.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\IntersectionSetup\IntersectionWindowBase.cs" />
@@ -208,8 +208,8 @@
     <Compile Include="Assets\Shaders\FlatKit [URP]\Shaders\Editor\TerrainEditor.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIPrefabTool.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\RoadSetup\RoadSetupWindow.cs" />
-    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Editor\vGenericInputDrawer.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Editor\UIButtonEditor.cs" />
+    <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Editor\vGenericInputDrawer.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Editor\WaypointsDraw\GridEditor.cs" />
     <Compile Include="Assets\Physics\Obi\Editor\Common\Blueprints\Properties\BaseTypes\ObiBlueprintIntProperty.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Editor\SetupWindows\ExternalTools\CidySetup.cs" />
