@@ -1984,9 +1984,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{60D951A0-18AE-D49F-3CEE-99B1A5D386E8}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{F9276B39-B2DE-F53D-8472-92F8B73ACE9D}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{3B3FEA98-75AA-2842-44C8-A3EBEC812931}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="FlatKit.Utils.Editor.csproj">
       <Project>{CFEC02BC-47B6-B76D-9C5D-D1D48F63ABE3}</Project>

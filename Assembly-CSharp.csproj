@@ -2269,6 +2269,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{60D951A0-18AE-D49F-3CEE-99B1A5D386E8}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="FlatKit.Utils.Editor.csproj">
       <Project>{CFEC02BC-47B6-B76D-9C5D-D1D48F63ABE3}</Project>
       <Name>FlatKit.Utils.Editor</Name>
