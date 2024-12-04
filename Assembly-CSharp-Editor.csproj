@@ -56,6 +56,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\disaster-prep-resp-sim\disaster-prep-resp-sim\Assets\Plugins\Smitesoft\Colorize Palette Modifier\Plugins\ColorizeEditor.dll" />
+    <Analyzer Include="C:\disaster-prep-resp-sim\disaster-prep-resp-sim\Assets\Plugins\Smitesoft\Colorize Palette Modifier\Plugins\Colorize.dll" />
     <Analyzer Include="C:\disaster-prep-resp-sim\disaster-prep-resp-sim\Library\PackageCache\com.unity.transport\Analyzers\Unity.Transport.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.25f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.25f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
@@ -1008,6 +1010,14 @@
     </Reference>
     <Reference Include="Sirenix.OdinValidator.Editor">
       <HintPath>Assets\External Plugins\Sirenix\Assemblies\Sirenix.OdinValidator.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Colorize">
+      <HintPath>Assets\Plugins\Smitesoft\Colorize Palette Modifier\Plugins\Colorize.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ColorizeEditor">
+      <HintPath>Assets\Plugins\Smitesoft\Colorize Palette Modifier\Plugins\ColorizeEditor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="log4netPlastic">

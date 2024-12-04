@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8357669333120701920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8301920795722904221}
+  - component: {fileID: 6332632216987227417}
+  m_Layer: 0
+  m_Name: ColorizeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8301920795722904221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8357669333120701920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6332632216987227417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8357669333120701920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2108585221, guid: ebc4eddb9722c4840bb0e0441b0a21da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderPipeline: 0
+  objectReference: {fileID: 0}
+  errorWrongRP: 0
+  textureRef: {fileID: 0}
+  meshFilterRef: {fileID: 0}
+  skinnedMeshRendererRef: {fileID: 0}
+  uvPointsRef: []
+  trianglesRef: 
+  containsPatterns: 0
+  wasSetUpToContainsPatterns: 0
+  preFilteredColors: []
+  filteredColors: []
+  colorsIncludedInPatterns: []
+  colorsWithStates: []
+  originalMaterialRef: {fileID: 0}
+  materialToCopyFrom: {fileID: 0}
+  setupMetallicSmoothness: 0
+  wasMetallicSmoothnessSetup: 0
+  overrideMetallicTexture: 0
+  metallicTextureRef: {fileID: 0}
+  universalMetallicStrength: 0
+  universalSmoothnessStrength: 0
+  metallicAndSmoothnessMode: 0
+  emissionTextureColorMode: 0
+  emissionManualTextureColor: {r: 0, g: 0, b: 0, a: 0}
+  emissionHDROverlayColor: {r: 0, g: 0, b: 0, a: 0}
+  setupEmissions: 0
+  wasEmissionsSetup: 0
+  overrideEmissionsTexture: 0
+  emissionTextureRef: {fileID: 0}
+  colorTintingValue: 0
+  colorForColorTinting1: {r: 1, g: 1, b: 1, a: 1}
+  colorForColorTinting2: {r: 1, g: 1, b: 1, a: 1}
+  colorForColorTinting3: {r: 1, g: 1, b: 1, a: 1}
+  colorForColorTinting4: {r: 1, g: 1, b: 1, a: 1}
+  colorForColorTinting5: {r: 1, g: 1, b: 1, a: 1}
+  colorForColorTinting6: {r: 1, g: 1, b: 1, a: 1}
+  listOfRandomColors: []
+  colorPalette: 0
+  skinTonesPalette:
+    colorSelectionsX: 
+    colorsX: []
+  natureColorPalette:
+    colorSelectionsX: 
+    colorsX: []
+  metallicPalette_Platinum:
+    colorSelectionsX: 
+    colorsX: []
+  metallicPalette_Gold:
+    colorSelectionsX: 
+    colorsX: []
+  metallicPalette_WhiteGold:
+    colorSelectionsX: 
+    colorsX: []
+  metallicPalette_Silver:
+    colorSelectionsX: 
+    colorsX: []
+  metallicPalette_Bronze:
+    colorSelectionsX: 
+    colorsX: []
+  metallicPalette_Copper:
+    colorSelectionsX: 
+    colorsX: []
+  metallicPalette_Tin:
+    colorSelectionsX: 
+    colorsX: []
+  metallicPalette_CopperRose:
+    colorSelectionsX: 
+    colorsX: []
+  metallicPalette_HeavyMetals:
+    colorSelectionsX: 
+    colorsX: []
+  metallicPalette_Steel:
+    colorSelectionsX: 
+    colorsX: []
+  metallicPalette_RustedIron:
+    colorSelectionsX: 
+    colorsX: []
+  paintMode: 0
+  groupsListWithNames: []
+  groupsList: 
+  groupAssignmentsValue: 0
+  mergeToNewGroup: 0
+  mergeToNewColor: {r: 0, g: 0, b: 0, a: 1}
+  highlightColor: 0
+  includeInactiveMaterialsAndTextures: 0
+  multiObjectsParents: []
+  lastIndexHighlighted: -1
+  lastGroupIndexHighlighted: -1
+  unFocusedCounter: 0
+  highLighting: 0
+  advancedOptionType: 0
+  paintBuildAssignMode: 0
+  preventExactColorsFromMerging: 0
+  suffix: 
+  objectsReference: []
+  materialToMassAssign: {fileID: 0}
