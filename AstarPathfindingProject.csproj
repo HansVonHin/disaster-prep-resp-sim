@@ -734,8 +734,16 @@
       <HintPath>Assets\External Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="ColorizeEditor">
+      <HintPath>Assets\Plugins\Smitesoft\Colorize Palette Modifier\Plugins\ColorizeEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Colorize">
+      <HintPath>Assets\Plugins\Smitesoft\Colorize Palette Modifier\Plugins\Colorize.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
