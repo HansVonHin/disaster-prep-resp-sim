@@ -8,7 +8,7 @@ using Random = UnityEngine.Random;
 namespace RayFire
 {
     [SelectionBase]
-    [AddComponentMenu ("RayFire/Rayfire Debris")]
+    [AddComponentMenu ("DebrisFX")]
     [HelpURL ("http://rayfirestudios.com/unity-online-help/components/unity-debris-component/")]
     public class RayfireDebris : MonoBehaviour
     {

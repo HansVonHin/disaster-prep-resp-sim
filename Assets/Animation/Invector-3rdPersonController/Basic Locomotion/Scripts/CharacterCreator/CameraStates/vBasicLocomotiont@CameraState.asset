@@ -16,23 +16,23 @@ MonoBehaviour:
   tpCameraStates:
   - Name: Default
     forward: -0.5
-    right: 0
-    defaultDistance: 2.5
+    right: 0.15
+    defaultDistance: 1.5
     maxDistance: 80
     minDistance: 0.6
-    height: 1.25
+    height: 1.3
     smooth: 10
-    smoothDamp: 2
-    xMouseSensitivity: 1.5
-    yMouseSensitivity: 1.5
-    yMinLimit: -75
-    yMaxLimit: 75
+    smoothDamp: 0
+    xMouseSensitivity: 3
+    yMouseSensitivity: 3
+    yMinLimit: -40
+    yMaxLimit: 70
     xMinLimit: -360
     xMaxLimit: 360
-    rotationOffSet: {x: 0.84, y: 0.99, z: 0}
-    cullingHeight: 1.8
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 1.5
     cullingMinDist: 0.01
-    fov: 60
+    fov: 70
     useZoom: 0
     fixedAngle: {x: 360, y: 78}
     lookPoints:
@@ -164,8 +164,8 @@ MonoBehaviour:
     fixedAngle: {x: 0, y: 0}
     lookPoints:
     - pointName: point_01
-      positionPoint: {x: 26.55739, y: 11.5149355, z: -14.382481}
-      eulerAngle: {x: 18.395489, y: 3.0748892, z: 0.00039735215}
+      positionPoint: {x: -13.698324, y: 2.557657, z: 19.383152}
+      eulerAngle: {x: 26.746052, y: 180.9433, z: -0.0023800884}
       freeRotation: 0
     - pointName: point_02
       positionPoint: {x: 29.395, y: 0.709, z: 2.2409992}

@@ -10,7 +10,7 @@ using UnityEditor;
 
 namespace RayFire
 {
-    [AddComponentMenu("RayFire/Rayfire Shatter")]
+    [AddComponentMenu("ShatterSetup")]
     [HelpURL("https://rayfirestudios.com/unity-online-help/components/unity-shatter-component/")]
     public class RayfireShatter : MonoBehaviour
     {

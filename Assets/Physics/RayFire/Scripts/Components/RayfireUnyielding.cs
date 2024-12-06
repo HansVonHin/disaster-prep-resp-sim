@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace RayFire
 {
-    [AddComponentMenu ("RayFire/Rayfire Unyielding")]
+    [AddComponentMenu ("UnyieldingSetup")]
     [HelpURL ("https://rayfirestudios.com/unity-online-help/components/unity-unyielding-component/")]
     public class RayfireUnyielding : MonoBehaviour
     {

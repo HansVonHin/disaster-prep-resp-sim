@@ -4,7 +4,7 @@ using UnityEngine;
 namespace RayFire
 {
     [SelectionBase]
-    [AddComponentMenu ("RayFire/Rayfire Dust")]
+    [AddComponentMenu ("DustFX")]
     [HelpURL ("http://rayfirestudios.com/unity-online-help/components/unity-dust-component/")]
     public class RayfireDust : MonoBehaviour
     {

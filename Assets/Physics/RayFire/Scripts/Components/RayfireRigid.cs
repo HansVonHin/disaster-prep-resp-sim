@@ -7,7 +7,7 @@ namespace RayFire
 {
     [SelectionBase]
     [DisallowMultipleComponent]
-    [AddComponentMenu ("RayFire/Rayfire Rigid")]
+    [AddComponentMenu ("RigidSetup")]
     [HelpURL ("https://rayfirestudios.com/unity-online-help/components/unity-rigid-component/")]
     public class RayfireRigid : MonoBehaviour
     {

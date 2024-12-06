@@ -6,7 +6,7 @@ using UnityEngine;
 namespace RayFire
 {
     [DisallowMultipleComponent]
-    [AddComponentMenu ("RayFire/Rayfire Connectivity")]
+    [AddComponentMenu ("FragmentConnectivity")]
     [HelpURL ("https://rayfirestudios.com/unity-online-help/components/unity-connectivity-component/")]
     public class RayfireConnectivity : MonoBehaviour
     {
