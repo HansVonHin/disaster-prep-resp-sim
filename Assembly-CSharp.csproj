@@ -78,7 +78,6 @@
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Events\VehicleEvents.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vEnableDisableByInputDevice.cs" />
     <Compile Include="Assets\UI\GUI\Examples\Scripts\InventorySystem\Game\UIItemSlot.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\ColorFromPhase.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Buildings\Manager\BuildingType.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vSpawnOnParticleCollision.cs" />
     <Compile Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
@@ -94,7 +93,6 @@
     <Compile Include="Assets\UI\GUI\Scripts\Internal\PropertyReference.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Internal\MinMaxRangeAttribute.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\vAnimatorResetTrigger.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\ColorFromViscosity.cs" />
     <Compile Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Camera\vThirdPersonCameraState.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vImageColorChange.cs" />
@@ -105,26 +103,22 @@
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Grid\IntersectionData.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\vAnimatorEventReceiver.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Buildings\Placer\BuildingPlacer.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Fluid\SampleResources\Scripts\WaveGenerator.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\FootStep\Scripts\vFootStep.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\vMinMaxAttribute.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\vButtonAttribute.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Extensions\RenderExtension.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Grid\CurrentSceneData.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Fluid\SampleResources\Scripts\Melt.cs" />
     <Compile Include="Assets\Shaders\FlatKit [URP]\Demos\[Demo] Desert\Scripts\FloatingMotion.cs" />
     <Compile Include="Assets\UI\GUI\Examples\Scripts\InventorySystem\Game\UIEquipmentSlot.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Demos\Bases\Scripts\ThirdPerson\Demo_FreeLookCam.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Addons\Advanced Buildings\Scripts\UI\ResourceSlotUI.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\ToUse\VehicleComponent.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Health\vIHealthController.cs" />
     <Compile Include="Assets\UI\GUI\Examples\Scripts\Other\ExampleDragDropItem.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\EditorOnlyMonoBehaviours\Routes\WaypointExtensionMethods.cs" />
     <Compile Include="Assets\UI\GUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Buildings\Manager\Saver\BuildingSaver.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vOnDeadTrigger.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Fluid\SampleResources\Scripts\FluidJetController.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIDragCamera.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Demos\Bases\Scripts\UI\Mobile\Demo_UIAndroidControls.cs" />
@@ -136,11 +130,9 @@
     <Compile Include="Assets\UI\GUI\Examples\Scripts\Other\PlayIdleAnimations.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\EditorOnlyMonoBehaviours\Routes\WaypointSettings.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Runtime\Waypoint\WaypointBase.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Fluid\SampleResources\Scripts\ObiFluidPropertyColorizer.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Addons\Advanced Buildings\Scripts\BuildableObject.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UICenterOnClick.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\vSeparator.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\MoveAndRotate.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Buildings\Manager\BuildingManager.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Extensions\UIExtension.cs" />
     <Compile Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
@@ -152,7 +144,6 @@
     <Compile Include="Assets\UI\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIElement.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\UI\UI2DSpriteAnimation.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Runtime\Base\WaypointManagerBase.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\ObiActorTeleport.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIPlaySound.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Grid\TrafficData.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Internal\BetterList.cs" />
@@ -200,11 +191,9 @@
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Ragdoll\vDamageReceiver.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vParticleEmissionByVelocity.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Enums\IntersectionType.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\AddRandomVelocity.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Intersection\IntersectionExtensionMethods.cs" />
     <Compile Include="Assets\Physics\RayFire\Tutorial\Scripts\ApplyDamageScript.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\HeadTrack\Scripts\vHeadTrack.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Fluid\SampleResources\Scripts\BucketController.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Internal\RealTime.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vSkyboxFade.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\UI\UIFont.cs" />
@@ -223,11 +212,9 @@
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Addons\Advanced Buildings\Scripts\CarriableObject.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\UI\UISpriteData.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Internal\NGUITools.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\CharacterController\ObiCharacter.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\ScriptableObjects\VehiclePool.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\ScriptableObjects\LayerSetup.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIButtonRotation.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\ObjectDragger.cs" />
     <Compile Include="Assets\Shaders\FlatKit [URP]\Demos\Common\Scripts\AutoLoadPipelineAsset.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\FootStep\Scripts\vFisherYatesRandom.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vMousePositionHandler.cs" />
@@ -304,7 +291,6 @@
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Enums\SpecialDriveActionTypes.cs" />
     <Compile Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Example\UI\CameraFollow.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\CharacterController\SampleCharacterController.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Tweening\TweenHeight.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vSelectableStringAttribute.cs" />
     <Compile Include="Assets\UI\GUI\Examples\Scripts\Other\LoadLevelOnClick.cs" />
@@ -341,7 +327,6 @@
     <Compile Include="Assets\UI\GUI\Scripts\Tweening\TweenWidth.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Triggers\vChangeInputTypeTrigger.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIButtonKeys.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\ColorFromVelocity.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\UI\UIAnchor.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Demos\Bases\Scripts\TopDown\Demo_TopDownCamera.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\vAnimatorSetBool.cs" />
@@ -367,7 +352,6 @@
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Buildings\Part\BuildingPart.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\UI\UITexture.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Interactables\vPunchingBag.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\ActorSpawner.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIButtonScale.cs" />
     <Compile Include="Assets\UI\GUI\Examples\Scripts\Other\DownloadTexture.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UITable.cs" />
@@ -440,10 +424,8 @@
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UISoundVolume.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\BodySnapSystem\Scripts\vSnapToBody.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\vCheckPropertyAttribute.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\CollisionEventHandler.cs" />
     <Compile Include="Assets\UI\GUI\Examples\Scripts\InventorySystem\System\InvStat.cs" />
     <Compile Include="Assets\UI\GUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\ColliderHighlighter.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIWrapContent.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Internal\NGUIMath.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Tweening\TweenPosition.cs" />
@@ -467,7 +449,6 @@
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\ObjectDamage\vSpike\vSpikeControl.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIEventTrigger.cs" />
     <Compile Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\Blinker.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\ToUse\EngineSoundComponent.cs" />
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Runtime\EditorOnlyMonoBehaviours\ConnectionPool.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Intersection\IntersectionStopWaypoints.cs" />
@@ -501,7 +482,6 @@
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIPlayTween.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Buildings\Socket\BuildingSocket.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\UI\UIPanel.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\ColorRandomizer.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\vBarDisplayAttribute.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIScrollBar.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vRandomFloat.cs" />
@@ -513,7 +493,6 @@
     <Compile Include="Assets\UI\GUI\Scripts\UI\UITextList.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Buildings\Manager\TerrainManager.cs" />
     <Compile Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\DebugParticleFrames.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIToggledObjects.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIDragDropItem.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIDraggableCamera.cs" />
@@ -525,7 +504,6 @@
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Extensions\GizmosExtension.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vMonoBehaviour.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Triggers\vTutorialTextTrigger.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\ObjectLimit.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Demos\Bases\Scripts\UI\Demo_UIBuildingControl.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\ToUse\VehicleLightsComponent.cs" />
     <Compile Include="Assets\Shaders\FlatKit [URP]\Demos\Common\Scripts\UvScroller.cs" />
@@ -544,10 +522,8 @@
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\vAnimatorIncreaseDecreaseValue.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\FootStep\Scripts\vAudioSurface.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Demos\Bases\Scripts\Demo_HDRPGrassDisabler.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\ObiParticleCounter.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Buildings\Part\Conditions\BuildingCollisionSurface.cs" />
     <Compile Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Common\SampleResources\Scripts\SlowmoToggler.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\PlaySoundLoop.cs" />
     <Compile Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\EnvelopContent.cs" />
@@ -586,7 +562,6 @@
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIButtonActivate.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vCharacter.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Features\Runtime\Buildings\Area\BuildingArea.cs" />
-    <Compile Include="Assets\Physics\Obi\Samples\Fluid\SampleResources\Scripts\ViscositySurfTensionToUserData.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\HeadTrack\Scripts\vHeadTrackSensor.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Demos\Bases\Scripts\UI\Mobile\Demo_UIVirtualJoystick.cs" />
     <Compile Include="Assets\UI\GUI\Examples\Scripts\InventorySystem\Game\UIStorageSlot.cs" />
@@ -619,12 +594,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Physics\RayFire\Plugins\Windows\x86_x64\RFLib_DotNet_2018.dll" />
-    <None Include="Assets\Physics\Obi\Samples\Fluid\SampleResources\Materials\StandardPerInstanceColor.shader" />
     <None Include="Assets\Built-In Unity\Build System\Easy Build System - Third-Party Notice.txt" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\ParticleShader.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\FluidThickness.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - License.txt" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\UI\GUI\Examples\Atlases\Wooden\Arimo20.txt" />
@@ -644,7 +616,6 @@
     <None Include="Assets\Shaders\FlatKit [URP]\Demos\[Demo] Desert\Shaders\CircleDecal.shader" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\NoEmitAndNoEditor\Sirenix.Serialization.dll" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
-    <None Include="Assets\Physics\Obi\Plugins\x86_64\libOni.dll" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - AFL.txt" />
     <None Include="Assets\Physics\RayFire\Plugins\Windows\x86_x64\RFLib_CNative_2018.dll" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
@@ -662,12 +633,10 @@
     <None Include="Assets\Shaders\FlatKit [URP]\Demos\[Demo] Desert\Shaders\Noise\Common.hlsl" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.xml" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\DistanceFieldSlice.shader" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
     <None Include="Assets\3D\SyntyStudios\PolygonNightclubs\Shaders\SyntyStudios_EmissiveScroll.shader" />
     <None Include="Assets\External Plugins\Cargo\EnterprisePipelineDotNet.dll" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\ObiParticles.cginc" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
     <None Include="Assets\UI\GUI\ReadMe - 2018.3.0.txt" />
     <None Include="Assets\External Plugins\Sirenix\Odin Validator\Readme.txt" />
@@ -677,7 +646,6 @@
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\NoEditor\Sirenix.Serialization.dll" />
     <None Include="Assets\UI\GUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\StandardVertexColors.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
     <None Include="Assets\Shaders\FlatKit [URP]\Shaders\StylizedSurface\LibraryUrp\Lighting_DR.hlsl" />
@@ -688,14 +656,12 @@
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Text.shader" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\SimpleParticleShader.shader" />
     <None Include="Assets\Shaders\FlatKit [URP]\Demos\[Demo] Desert\Shaders\DesertCloud.hlsl" />
     <None Include="Assets\Physics\RayFire\Plugins\Windows\x86\RFLib_CNative_2018_x86.dll" />
     <None Include="Assets\3D\SyntyStudios\PolygonNightclubs\Shaders\SyntyStudios_Building.shader" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
     <None Include="Assets\Shaders\FlatKit [URP]\Shaders\StylizedSurface\StylizedSurfaceOutline.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\ObiEllipsoids.cginc" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.Utilities.xml" />
@@ -706,20 +672,15 @@
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Shaders\FlatKit [URP]\Demos\[Demo] Desert\Shaders\DesertPillar.hlsl" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\SimpleFluid.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\UI\GUI\Examples\Atlases\Wooden\Arimo18.txt" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\NoEditor\Sirenix.Utilities.dll" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\OpaqueFluidShader.shader" />
     <None Include="Assets\UI\GUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\External Plugins\Sirenix\Readme.txt" />
     <None Include="Assets\Physics\RayFire\Info\FAQ.txt" />
     <None Include="Assets\UI\GUI\Examples\Shaders\Refractive.shader" />
     <None Include="Assets\UI\GUI\Examples\Shaders\Unlit - Masked Colored.shader" />
-    <None Include="Assets\Physics\Obi\CHANGELOG_fluid.txt" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\NormalReconstruction.shader" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\ScreenSpaceCurvatureFlow.shader" />
     <None Include="Assets\UI\GUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
     <None Include="Assets\3D\SyntyStudios\PolygonNightclubs\Shaders\SyntyStudios_Flipbook.shader" />
     <None Include="Assets\3D\SyntyStudios\PolygonNightclubs\Shaders\SyntyStudios_Skybox.shader" />
@@ -729,14 +690,10 @@
     <None Include="Assets\Shaders\FlatKit [URP]\Demos\[Demo] Desert\Shaders\Library\StylizedLighting.hlsl" />
     <None Include="Assets\Physics\RayFire\Plugins\Ios\RFLib_DotNet_2018_ios.dll" />
     <None Include="Assets\UI\GUI\Examples\Atlases\Wooden\Arimo14.txt" />
-    <None Include="Assets\Physics\Obi\Plugins\x86\libOni.dll" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.xml" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\FluidColorsBlend.shader" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\FluidColorsOpaque.shader" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\ObiFluids.cginc" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Physics\RayFire\Info\CHANGELOG.txt" />
     <None Include="Assets\Shaders\FlatKit [URP]\Demos\[Demo] Desert\Shaders\Noise\ClassicNoise2D.hlsl" />
@@ -748,11 +705,9 @@
     <None Include="Assets\Physics\RayFire\Info\README.txt" />
     <None Include="Assets\Physics\RayFire\WhereToStart.txt" />
     <None Include="Assets\UI\GUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\DielectricFluidShader.shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\UI\GUI\Examples\Models\Orc Armor\Orc Armor.shader" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\LitParticles.shader" />
     <None Include="Assets\External Plugins\Sirenix\Assemblies\NoEmitAndNoEditor\Sirenix.Utilities.dll" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
@@ -763,7 +718,6 @@
     <None Include="Assets\UI\GUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
     <None Include="Assets\Built-In Unity\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Shaders\FlatKit [URP]\Shaders\StylizedSurface\Terrain.shader" />
-    <None Include="Assets\Physics\Obi\Resources\ObiMaterials\ObiUtils.cginc" />
     <None Include="Assets\GleyPlugins\TrafficSystem\Scripts\Version.txt" />
     <None Include="Assets\3D\SyntyStudios\PolygonNightclubs\Shaders\SyntyStudios_EmissiveColourChange.shader" />
     <None Include="Assets\UI\GUI\Examples\Shaders\Unlit - Additive Colored.shader" />
@@ -2340,10 +2294,6 @@
     <ProjectReference Include="Unity.StarterAssets.Editor.csproj">
       <Project>{B2FCA333-CB27-775C-51C5-995A7009BDF6}</Project>
       <Name>Unity.StarterAssets.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Obi.csproj">
-      <Project>{3FDC4EB2-B637-81C5-594A-837FFC4548E7}</Project>
-      <Name>Obi</Name>
     </ProjectReference>
     <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
       <Project>{D400A13A-DDE0-EB39-8842-90B109D35FE9}</Project>
