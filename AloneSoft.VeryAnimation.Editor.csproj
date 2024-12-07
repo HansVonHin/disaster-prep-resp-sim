@@ -265,9 +265,9 @@
     <Compile Include="Assets\Animation\VeryAnimation\Scripts\Editor\Library\Collada_Main\Types\Grendgine_Collada_Bool_Array_String.cs" />
     <Compile Include="Assets\Animation\VeryAnimation\Scripts\Editor\Library\Collada_Main\Collada_FX\Profiles\GLSL\Grendgine_Collada_Pass_GLSL.cs" />
     <Compile Include="Assets\Animation\VeryAnimation\Scripts\Editor\Reflection\UPrefabStage.cs" />
-    <Compile Include="Assets\Animation\VeryAnimation\Scripts\Editor\Library\Collada_Main\Collada_FX\Effects\Grendgine_Collada_Instance_Effect.cs" />
     <Compile Include="Assets\Animation\VeryAnimation\Scripts\Editor\Library\Collada_Main\Collada_Core\Lighting\Grendgine_Collada_Point.cs" />
     <Compile Include="Assets\Animation\VeryAnimation\Scripts\Editor\Library\Collada_Main\Collada_FX\Profiles\GLES\Grendgine_Collada_Profile_GLES.cs" />
+    <Compile Include="Assets\Animation\VeryAnimation\Scripts\Editor\Library\Collada_Main\Collada_FX\Effects\Grendgine_Collada_Instance_Effect.cs" />
     <Compile Include="Assets\Animation\VeryAnimation\Scripts\Editor\Library\Collada_Main\Collada_B_Rep\Topology\Grendgine_Collada_PCurves.cs" />
     <Compile Include="Assets\Animation\VeryAnimation\Scripts\Editor\Library\Collada_Main\Collada_FX\Profiles\GLSL\Grendgine_Collada_Technique_GLSL.cs" />
     <Compile Include="Assets\Animation\VeryAnimation\Scripts\Editor\Library\Collada_Main\Collada_Core\Lighting\Grendgine_Collada_Color.cs" />
