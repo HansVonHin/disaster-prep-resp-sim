@@ -51,9 +51,9 @@ Material:
     - _DistanceFogIntensity: 0.055
     - _DistanceHeightBlend: 0.791
     - _Far: 44.9
-    - _HeightFogIntensity: 0.091
+    - _HeightFogIntensity: 0.1
     - _HighWorldY: 10.6
-    - _LowWorldY: -0.7
+    - _LowWorldY: -1
     - _Near: 1
     m_Colors: []
   m_BuildTextureStacks: []
@@ -135,9 +135,9 @@ MonoBehaviour:
     m_ColorSpace: 0
     m_NumColorKeys: 5
     m_NumAlphaKeys: 2
-  low: -0.7
+  low: -1
   high: 10.6
-  heightFogIntensity: 0.091
+  heightFogIntensity: 0.1
   cameraRelativePosition: 1
   distanceHeightBlend: 0.791
   renderEvent: 550
