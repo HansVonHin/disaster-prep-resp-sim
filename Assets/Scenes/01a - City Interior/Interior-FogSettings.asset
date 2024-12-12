@@ -50,11 +50,11 @@ Material:
     m_Floats:
     - _DistanceFogIntensity: 0.055
     - _DistanceHeightBlend: 0.791
-    - _Far: 44.9
+    - _Far: 100
     - _HeightFogIntensity: 0.1
-    - _HighWorldY: 10.6
-    - _LowWorldY: -1
-    - _Near: 1
+    - _HighWorldY: 100
+    - _LowWorldY: -30
+    - _Near: -30
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
@@ -101,8 +101,8 @@ MonoBehaviour:
     m_ColorSpace: 0
     m_NumColorKeys: 3
     m_NumAlphaKeys: 3
-  near: 1
-  far: 44.9
+  near: -30
+  far: 100
   distanceFogIntensity: 0.055
   useHeight: 1
   heightGradient:
@@ -135,8 +135,8 @@ MonoBehaviour:
     m_ColorSpace: 0
     m_NumColorKeys: 5
     m_NumAlphaKeys: 2
-  low: -1
-  high: 10.6
+  low: -30
+  high: 100
   heightFogIntensity: 0.1
   cameraRelativePosition: 1
   distanceHeightBlend: 0.791
