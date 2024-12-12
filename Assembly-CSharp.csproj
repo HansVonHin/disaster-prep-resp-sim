@@ -122,6 +122,7 @@
     <Compile Include="Assets\UI\GUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIDragCamera.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Demos\Bases\Scripts\UI\Mobile\Demo_UIAndroidControls.cs" />
+    <Compile Include="Assets\Scenes\00 - Tests\00 - Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\vAnimatorTagAdvanced.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Health\vDamageModifier.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Interaction\UIDragDropRoot.cs" />
@@ -390,7 +391,6 @@
     <Compile Include="Assets\Built-In Unity\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Addons\House Buildings\Scripts\Demo_OrbitCamera.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Waypoint\Waypoint.cs" />
-    <Compile Include="Assets\Scenes\00 - TestingGrounds\00 - Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vExtensions.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Grid\TrafficGridManager.cs" />
     <Compile Include="Assets\UI\GUI\Examples\Scripts\Other\LookAtTarget.cs" />
