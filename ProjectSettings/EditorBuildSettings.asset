@@ -4,10 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/01b - During/Lower Level/A - Hallway Loop.unity
+    guid: 6b532298fe0ad6c4bb8fb18de572843a
+  - enabled: 1
+    path: Assets/Scenes/01b - During/Lower Level/B - Right Hallway Rooms.unity
+    guid: e04eb435a625af34497083bd78dee0a4
+  - enabled: 1
+    path: Assets/Scenes/01b - During/Lower Level/C - Left Hallway Rooms.unity
+    guid: 6c82de7da8fbc9348b81e13c7bac6dfd
+  - enabled: 1
+    path: Assets/Scenes/01b - During/Lower Level/D - Utility Rooms.unity
+    guid: 9206238b22ef84f4abd42125030641ad
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 63a5c57565fbf144e8a47fe226d8bee1, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 5c0d93efab381464eb94e81f01043f59, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 59a47e1297076b94aaf039a56c6ec119, type: 2}
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: ebe82e24e36dada49ba58e76a9276111, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 1edb3e45fd55c484ea11288194ecffb3, type: 2}
+  m_UseUCBPForAssetBundles: 0
