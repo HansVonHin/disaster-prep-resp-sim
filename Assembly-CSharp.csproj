@@ -99,6 +99,7 @@
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Other\PositionValidator.cs" />
     <Compile Include="Assets\UI\GUI\Scripts\Tweening\TweenOrthoSize.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\DelegateImplementation\GetBestNeighbor.cs" />
+    <Compile Include="Assets\Scenes\01b - During\Scripts\PlaneColliderSceneManager.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vRotateToTarget.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\Traffic\Grid\IntersectionData.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\vAnimatorEventReceiver.cs" />
@@ -577,7 +578,6 @@
     <Compile Include="Assets\GleyPlugins\SharedUrbanAssets\Scripts\Runtime\EditorOnlyMonoBehaviours\Path.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vThirdPersonController.cs" />
     <Compile Include="Assets\Built-In Unity\Build System\Packages\Demos\Bases\Scripts\FirstPerson\Demo_FirstPersonCamera.cs" />
-    <Compile Include="Assets\Scenes\01b - During\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\EditorOnlyMonoBehaviours\Intersection\GenericIntersectionSettings.cs" />
     <Compile Include="Assets\GleyPlugins\TrafficSystem\Scripts\Core\EditorOnlyMonoBehaviours\Intersection\PriorityIntersectionSettings.cs" />
     <Compile Include="Assets\Animation\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vHUDController.cs" />
