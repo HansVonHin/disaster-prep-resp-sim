@@ -3,25 +3,24 @@ using UnityEngine.SceneManagement;
 
 public class SceneStartupManager : MonoBehaviour
 {
-    [SerializeField] private string[] subScenesToLoad; // Add the sub-scene names in the Inspector
+    [SerializeField] private string[] scenesToLoad; // Add the names of your full scenes here
 
     private void Start()
     {
-        if (subScenesToLoad == null || subScenesToLoad.Length == 0)
+        if (scenesToLoad == null || scenesToLoad.Length == 0)
         {
-            Debug.LogWarning("No sub-scenes specified to load in SceneStartupManager.");
+            Debug.LogWarning("No scenes specified to load in SceneStartupManager.");
             return;
         }
 
-        foreach (string subScene in subScenesToLoad)
+        foreach (string scene in scenesToLoad)
         {
-            if (!string.IsNullOrEmpty(subScene) && !IsSceneLoaded(subScene))
+            if (!string.IsNullOrEmpty(scene) && !IsSceneLoaded(scene))
             {
-                SceneManager.LoadSceneAsync(subScene, LoadSceneMode.Additive)
+                SceneManager.LoadSceneAsync(scene, LoadSceneMode.Additive)
                     .completed += (operation) =>
                     {
-                        Debug.Log($"Successfully loaded sub-scene: {subScene}");
-                        ActivateSceneGameObjects(subScene);
+                        Debug.Log($"Successfully loaded scene: {scene}");
                     };
             }
         }
@@ -35,22 +34,5 @@ public class SceneStartupManager : MonoBehaviour
                 return true;
         }
         return false;
-    }
-
-    private void ActivateSceneGameObjects(string sceneName)
-    {
-        Scene subScene = SceneManager.GetSceneByName(sceneName);
-        if (subScene.isLoaded)
-        {
-            GameObject[] rootObjects = subScene.GetRootGameObjects();
-            foreach (GameObject rootObject in rootObjects)
-            {
-                rootObject.SetActive(true); // Ensure all root GameObjects are active
-            }
-        }
-        else
-        {
-            Debug.LogWarning($"Scene {sceneName} is not loaded, so its GameObjects cannot be activated.");
-        }
     }
 }
