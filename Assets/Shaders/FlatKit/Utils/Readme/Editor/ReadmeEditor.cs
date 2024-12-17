@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -179,7 +180,6 @@ public class ReadmeEditor : Editor {
             GUILayout.BeginVertical();
             if (GUILayout.Button("Copy", EditorStyles.miniButtonLeft)) {
                 CopyDebugInfoToClipboard();
-                // EditorUtility.DisplayDialog(AssetName, "Debug info copied to the clipboard.", "OK");
             }
 
             if (EditorGUIUtility.systemCopyBuffer == GetDebugInfoString()) {
@@ -191,21 +191,27 @@ public class ReadmeEditor : Editor {
             GUILayout.EndHorizontal();
 
             var debugInfo = GetDebugInfo();
+            var style = new GUIStyle(EditorStyles.miniLabel) {wordWrap = true};
             foreach (var s in debugInfo) {
-                EditorGUILayout.LabelField($"    " + s, EditorStyles.miniLabel);
+                EditorGUILayout.LabelField($"    " + s, style);
             }
 
             EditorGUILayout.Separator();
         }
     }
 
-    private string[] GetDebugInfo() {
+    private List<string> GetDebugInfo() {
         var renderPipelineAsset = GraphicsSettings.currentRenderPipeline;
         if (renderPipelineAsset == null) {
             renderPipelineAsset = GraphicsSettings.defaultRenderPipeline;
         }
 
         var rpAssetName = renderPipelineAsset == null ? "N/A" : renderPipelineAsset.name;
+
+        var renderingPath = "Unknown";
+        if (Shader.IsKeywordEnabled("_FORWARD_PLUS")) {
+            renderingPath = "Forward+";
+        }
 
         var info = new List<string> {
             $"{AssetName} version {_readme.FlatKitVersion}",
@@ -215,6 +221,7 @@ public class ReadmeEditor : Editor {
             $"URP installed: {_readme.UrpInstalled}, version {_readme.UrpVersionInstalled}",
             $"Render pipeline: {Shader.globalRenderPipeline}",
             $"Render pipeline asset: {rpAssetName}",
+            $"Rendering path: {renderingPath}",
             $"Color space: {PlayerSettings.colorSpace}"
         };
 
@@ -226,12 +233,24 @@ public class ReadmeEditor : Editor {
             : GraphicsSettings.currentRenderPipeline.name;
         info.Add($"Graphics config: {graphicsConfig}");
 
-        return info.ToArray();
+        return info;
     }
 
     private string GetDebugInfoString() {
-        string[] info = GetDebugInfo();
-        return String.Join("\n", info);
+        var info = GetDebugInfo();
+
+        {
+            var keywords = new List<string>();
+            foreach (var keyword in Shader.enabledGlobalKeywords) {
+                if (Shader.IsKeywordEnabled(keyword)) {
+                    keywords.Add(keyword.name);
+                }
+            }
+
+            info.Add("Enabled global keywords: " + string.Join(", ", keywords));
+        }
+
+        return string.Join("\n", info);
     }
 
     private void CopyDebugInfoToClipboard() {

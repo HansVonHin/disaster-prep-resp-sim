@@ -1,6 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.Rendering.RenderGraphModule;
+using UnityEngine.Rendering.RenderGraphModule.Util;
 using UnityEngine.Rendering.Universal;
+#if UNITY_6000_0_OR_NEWER
+using RenderGraphUtils = UnityEngine.Rendering.RenderGraphModule.Util.RenderGraphUtils;
+#endif
 
 public class DustyroomRenderPass : ScriptableRenderPass {
     private Material _passMaterial;
@@ -9,7 +15,14 @@ public class DustyroomRenderPass : ScriptableRenderPass {
     private PassData _passData;
     private ProfilingSampler _profilingSampler;
     private RTHandle _copiedColor;
-    private static readonly int BlitTextureShaderID = Shader.PropertyToID("_EffectTexture");
+
+#if UNITY_6000_0_OR_NEWER
+    private RenderTextureDescriptor _texDescriptor = new(Screen.width, Screen.height,
+        RenderTextureFormat.Default, 0);
+#endif
+
+    private const string TexName = "_BlitTexture";
+    private static readonly int BlitTextureShaderID = Shader.PropertyToID(TexName);
 
     public void Setup(Material mat, bool requiresColor, bool isBeforeTransparents, string featureName,
         in RenderingData renderingData) {
@@ -31,7 +44,37 @@ public class DustyroomRenderPass : ScriptableRenderPass {
         _copiedColor?.Release();
     }
 
+#if UNITY_6000_0_OR_NEWER
+    public override void RecordRenderGraph(RenderGraph renderGraph, ContextContainer frameData) {
+        UniversalResourceData resourceData = frameData.Get<UniversalResourceData>();
+        UniversalCameraData cameraData = frameData.Get<UniversalCameraData>();
 
+        // The following line ensures that the render pass doesn't blit from the back buffer.
+        if (resourceData.isActiveTargetBackBuffer) {
+            return;
+        }
+
+        {
+            _texDescriptor.width = cameraData.cameraTargetDescriptor.width;
+            _texDescriptor.height = cameraData.cameraTargetDescriptor.height;
+            _texDescriptor.depthBufferBits = 0;
+        }
+
+        TextureHandle srcCamColor = resourceData.activeColorTexture;
+        TextureHandle dst = UniversalRenderer.CreateRenderGraphTexture(renderGraph, _texDescriptor, TexName, false);
+
+        // This check is to avoid an error from the material preview in the scene.
+        if (!srcCamColor.IsValid() || !dst.IsValid()) {
+            return;
+        }
+
+        RenderGraphUtils.BlitMaterialParameters blit1 = new(srcCamColor, dst, _passMaterial, 0);
+        renderGraph.AddBlitPass(blit1, $"{_profilingSampler.name} (Effect Pass)");
+        renderGraph.AddCopyPass(dst, srcCamColor);
+    }
+
+    [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled).", false)]
+#endif
     public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData) {
         _passData.effectMaterial = _passMaterial;
         _passData.requiresColor = _requiresColor;
