@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnPlayMode: 1
   OnPlayModeIfWarnings: 0
-  OnPlayModeIfErrors: 1
+  OnPlayModeIfErrors: 0
   OnPlayModeAlwaysCompleteValidationFully: 0
   OnPlayModeFlashScreen: 0
   OnPlayModeSetup:
@@ -22,7 +22,7 @@ MonoBehaviour:
     ProfileAsset: {fileID: 0}
   OnBuild: 1
   OnBuildIfWarnings: 0
-  OnBuildIfErrors: 3
+  OnBuildIfErrors: 0
   OnBuildAlwaysCompleteValidationFully: 0
   OnBuildFlashScreen: 0
   OnBuildSetup:
@@ -30,7 +30,7 @@ MonoBehaviour:
     ProfileAsset: {fileID: 0}
   OnProjectStartup: 1
   OnProjectStartupIfWarnings: 0
-  OnProjectStartupIfErrors: 1
+  OnProjectStartupIfErrors: 0
   OnProjectStartupAlwaysCompleteValidationFully: 0
   OnProjectStartupFlashScreen: 0
   OnProjectStartupSetup:
